@@ -4,14 +4,14 @@
 
     /* Custom properties */
 
-    --hsl-bg-dark: 230, 9.09%, 12.94%;
+    --custprop-hsl-bg-dark: 230, 9%, 13%;
 
     /* Reference colors */
 
-    --color-bg-dark: hsl(var(--hsl-bg-dark)) !important;
+    --color-bg-dark: hsl(var(--custprop-hsl-bg-dark)) !important;
     --color-bg-dark-darker: #1d1d21 !important;
     --color-bg-dark-lighter: #2f2f2f !important;
-    --color-bg-light: rgba(240, 240, 240, 1) !important;
+    /* --color-bg-light: rgba(240, 240, 240, 1) !important; */
 
     --color-text-light: #F0F0F0 !important;
     --color-text-light-legible: #cccccc !important;
@@ -71,22 +71,22 @@
     /* Generated with https: //larsenwork.com/easing-gradients/#editor */
     --dark-cover-gradient:
         linear-gradient(to bottom,
-            hsla(var(--hsl-bg-dark), 0) 0%,
-            hsla(var(--hsl-bg-dark), 0.013) 6.7%,
-            hsla(var(--hsl-bg-dark), 0.049) 13%,
-            hsla(var(--hsl-bg-dark), 0.104) 18.9%,
-            hsla(var(--hsl-bg-dark), 0.175) 24.6%,
-            hsla(var(--hsl-bg-dark), 0.259) 30.1%,
-            hsla(var(--hsl-bg-dark), 0.352) 35.6%,
-            hsla(var(--hsl-bg-dark), 0.45) 41.2%,
-            hsla(var(--hsl-bg-dark), 0.55) 46.9%,
-            hsla(var(--hsl-bg-dark), 0.648) 52.8%,
-            hsla(var(--hsl-bg-dark), 0.741) 59.2%,
-            hsla(var(--hsl-bg-dark), 0.825) 66%,
-            hsla(var(--hsl-bg-dark), 0.896) 73.4%,
-            hsla(var(--hsl-bg-dark), 0.951) 81.4%,
-            hsla(var(--hsl-bg-dark), 0.987) 90.3%,
-            hsl(var(--hsl-bg-dark)) 100%) !important;
+            hsla(var(--custprop-hsl-bg-dark), 0) 0%,
+            hsla(var(--custprop-hsl-bg-dark), 0.013) 6.7%,
+            hsla(var(--custprop-hsl-bg-dark), 0.049) 13%,
+            hsla(var(--custprop-hsl-bg-dark), 0.104) 18.9%,
+            hsla(var(--custprop-hsl-bg-dark), 0.175) 24.6%,
+            hsla(var(--custprop-hsl-bg-dark), 0.259) 30.1%,
+            hsla(var(--custprop-hsl-bg-dark), 0.352) 35.6%,
+            hsla(var(--custprop-hsl-bg-dark), 0.45) 41.2%,
+            hsla(var(--custprop-hsl-bg-dark), 0.55) 46.9%,
+            hsla(var(--custprop-hsl-bg-dark), 0.648) 52.8%,
+            hsla(var(--custprop-hsl-bg-dark), 0.741) 59.2%,
+            hsla(var(--custprop-hsl-bg-dark), 0.825) 66%,
+            hsla(var(--custprop-hsl-bg-dark), 0.896) 73.4%,
+            hsla(var(--custprop-hsl-bg-dark), 0.951) 81.4%,
+            hsla(var(--custprop-hsl-bg-dark), 0.987) 90.3%,
+            hsl(var(--custprop-hsl-bg-dark)) 100%) !important;
 
     /* Timing */
 
@@ -297,7 +297,7 @@ h1.notion-heading:not(:first-child)>span {
     padding: 0 !important
 }
 
-h1 {
+/* h1 {
     font-size: 3.2em !important;
     font-weight: 300 !important;
     letter-spacing: -1.5px
@@ -321,10 +321,10 @@ h3 {
 }
 
 p {
-    font-size: .9em !important;
+    /* font-size: .9em !important;
     font-size: 1.1em !important;
-    margin-top: 0 !important
-}
+    /* margin-top: 0 !important
+} */
 
 .notion-column .notion-quote,
 .notion-column p {
