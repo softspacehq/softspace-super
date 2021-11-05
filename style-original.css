@@ -9,7 +9,6 @@
   --cover-gradient: var(--dark-cover-gradient) !important;
   --color-ui-hover-bg: var(--color-bg-dark-darker) !important;
 
-
   --color-gray: #aeafaf !important;
   --color-brown: #ae9d82 !important;
   --color-orange: #ff9933 !important;
@@ -277,7 +276,7 @@ h3 {
   font-size: .8em !important;
   text-transform: uppercase !important;
   letter-spacing: 1px !important;
-  margin-bottom: 10px !important
+  margin-bottom: 10px !
 }
 
 p {

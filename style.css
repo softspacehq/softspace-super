@@ -1,3 +1,6 @@
+/* Super.so CSS classes: https: //super.so/docs/css-classes */
+/* Super.so CSS colors: https: //super.so/docs/notion-colors */
+
 :root {
 
     /* COLORS */
@@ -25,13 +28,17 @@
     --color-blue: #0072FF !important;
     --color-purple: #7d47cf !important;
     --color-pink: #ff99cc !important;
-    --color-red: #ff5666 !important;
+    /* --color-red: #ff5666 !important; */
+    --color-red: #00ff00 !important;
 
     /* Style colors */
 
     --color-primary: var(--color-blue) !important;
     --color-ui-hover-bg: var(--color-bg-dark-darker) !important;
 
+    /* Super.so variable overrides */
+
+    --color-text-default: var(--color-text-light);
     --color-text-gray: var(--color-gray) !important;
     --color-text-brown: var(--color-brown) !important;
     --color-text-orange: var(--color-orange) !important;
@@ -52,8 +59,7 @@
     --color-bg-pink: var(--color-pink) !important;
     --color-bg-red: var(--color-red) !important;
 
-    /* --color-pill-default: #9ba0b0 !important; */
-
+    --color-pill-default: #9ba0b0 !important;
     --color-pill-gray: var(--color-gray) !important;
     --color-pill-brown: var(--color-brown) !important;
     --color-pill-orange: var(--color-orange) !important;
