@@ -9,7 +9,7 @@
 
     --custprop-hsl-bg-dark: 230, 9%, 13%;
 
-    /* Reference colors */
+    /* Defined colors */
 
     --color-gray: #aeafaf !important;
     --color-brown: #ae9d82 !important;
@@ -30,12 +30,14 @@
     --color-bg-dark-lighter: #2f2f2f !important;
     /* --color-bg-light: rgba(240, 240, 240, 1) !important; */
 
+    --color-highlight: #9ba0b0 !important;
+
     /* Style colors */
 
     --color-primary: var(--color-blue) !important;
     --color-ui-hover-bg: var(--color-bg-dark-darker) !important;
 
-    /* Super.so variable overrides */
+    /* Super.so color variable overrides */
 
     --color-text-default: var(--color-text-light);
     --color-text-gray: var(--color-gray) !important;
@@ -48,6 +50,7 @@
     --color-text-pink: var(--color-pink) !important;
     --color-text-red: var(--color-red) !important;
 
+    --color-bg-default: var(--color-bg-dark) !important;
     --color-bg-gray: var(--color-gray) !important;
     --color-bg-brown: var(--color-brown) !important;
     --color-bg-orange: var(--color-orange) !important;
@@ -58,8 +61,7 @@
     --color-bg-pink: var(--color-pink) !important;
     --color-bg-red: var(--color-red) !important;
 
-    --color-pill-default: #9ba0b0 !important;
-    --color-pill-gray: var(--color-gray) !important;
+    --color-pill-default: var(--color-highlight) !important;
     --color-pill-brown: var(--color-brown) !important;
     --color-pill-orange: var(--color-orange) !important;
     --color-pill-yellow: var(--color-yellow) !important;
@@ -69,12 +71,10 @@
     --color-pill-pink: var(--color-pink) !important;
     --color-pill-red: var(--color-red) !important;
 
-    /* Gradient colors */
-
-    --cover-gradient: var(--dark-cover-gradient) !important;
+    /* Gradients */
 
     /* Generated with https: //larsenwork.com/easing-gradients/#editor */
-    --dark-cover-gradient:
+    --gradient-bg-dark:
         linear-gradient(to bottom,
             hsla(var(--custprop-hsl-bg-dark), 0) 0%,
             hsla(var(--custprop-hsl-bg-dark), 0.013) 6.7%,
@@ -266,7 +266,7 @@ body {
     padding: 0 !important;
     width: 100% !important;
     z-index: 1;
-    background-image: var(--cover-gradient) !important;
+    background-image: var(--gradient-bg-dark) !important;
     /*width: 100%;*/
     /*height: 100% !important*/
 }
