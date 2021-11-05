@@ -300,7 +300,7 @@ h1.notion-heading:not(:first-child)>span {
 h1 {
     font-size: 3.2em !important;
     font-weight: 300 !important;
-    letter-spacing: -1.5px
+    letter-spacing: -1.5px !important
 }
 
 h2,
@@ -317,7 +317,7 @@ h3 {
     font-size: .8em !important;
     text-transform: uppercase !important;
     letter-spacing: 1px !important;
-    margin-bottom: 10px !
+    margin-bottom: 10px !important
 }
 
 p {
