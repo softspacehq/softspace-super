@@ -32,10 +32,10 @@
 
     --color-highlight: #9ba0b0 !important;
 
-    /* Style colors */
+    /* Brand colors */
 
     --color-primary: var(--color-blue) !important;
-    --color-ui-hover-bg: var(--color-bg-dark-darker) !important;
+    /* --color-ui-hover-bg: var(--color-bg-dark-darker) !important; */
 
     /* Super.so color variable overrides */
 
@@ -122,7 +122,7 @@
 
 .notion-text.bg-blue>p,
 .notion-text.bg-purple>p {
-    color: var(--color-text-light) !important
+    color: var(--color-text-default) !important
 }
 
 .notion-text.bg-blue>p,
@@ -141,8 +141,8 @@ body {
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
     text-rendering: optimizeLegibility !important;
-    background: var(--color-bg-dark) !important;
-    color: var(--color-text-light) !important;
+    background: var(--color-bg-default) !important;
+    color: var(--color-text-default) !important;
     font-size: var(--font-size) !important
 }
 
@@ -171,7 +171,7 @@ body {
 }
 
 .notion-navbar>a:visited {
-    color: var(--color-text-light-legible) !important
+    color: var(--color-text-default-legible) !important
 }
 
 .notion-navbar>a:hover {
@@ -180,7 +180,7 @@ body {
 }
 
 .notion-navbar__title {
-    color: var(--color-text-light) !important;
+    color: var(--color-text-default) !important;
     font-size: 1.1em !important;
     transition: var(--transition);
     z-index: 50 !important
@@ -361,7 +361,7 @@ p {
 }
 
 .date {
-    color: var(--color-text-light-legible) !important
+    color: var(--color-text-default-legible) !important
 }
 
 p>* {
@@ -375,7 +375,7 @@ p>span>span>a {
 }
 
 p>span>span>a:visited {
-    color: var(--color-text-light-legible) !important
+    color: var(--color-text-default-legible) !important
 }
 
 li a {
@@ -395,7 +395,7 @@ p code {
 }
 
 .notion-file__size {
-    color: var(--color-text-light-legible);
+    color: var(--color-text-default-legible);
     opacity: .4
 }
 
@@ -413,24 +413,24 @@ pre {
     font-size: .9em !important;
     background: var(--color-bg-dark-darker) !important;
     max-width: 630px !important;
-    color: var(--color-text-light-legible) !important
+    color: var(--color-text-default-legible) !important
 }
 
 pre code {
     background: var(--color-bg-dark-darker) !important;
     max-width: 630px !important;
-    color: var(--color-text-light-legible) !important
+    color: var(--color-text-default-legible) !important
 }
 
 code {
     white-space: pre-wrap !important;
     background: var(--color-bg-dark-lighter) !important;
     border-radius: 0 !important;
-    color: var(--color-text-light-legible) !important
+    color: var(--color-text-default-legible) !important
 }
 
 token[style] {
-    color: var(--color-text-light-legible) !important
+    color: var(--color-text-default-legible) !important
 }
 
 code {
@@ -447,29 +447,29 @@ pre>code>span {
 
 .token {
     text-shadow: none !important;
-    color: var(--color-text-light-legible) !important
+    color: var(--color-text-default-legible) !important
 }
 
 .notion-caption {
-    color: var(--color-text-light-legible) !important;
+    color: var(--color-text-default-legible) !important;
     opacity: .7;
     font-size: 1.1em;
     margin-bottom: 30px !important
 }
 
 .notion-text__content {
-    color: var(--color-text-light-legible) !important;
+    color: var(--color-text-default-legible) !important;
     font-size: .9em
 }
 
 a {
-    color: var(--color-text-light-legible) !important;
+    color: var(--color-text-default-legible) !important;
     transition: var(--transition) !important;
     border: 0 !important
 }
 
 a:visited {
-    color: var(--color-text-light-legible) !important
+    color: var(--color-text-default-legible) !important
 }
 
 a:hover {
@@ -506,7 +506,7 @@ ul {
 }
 
 .notion-list-item>span {
-    color: var(--color-text-light-legible) !important
+    color: var(--color-text-default-legible) !important
 }
 
 ol li {
@@ -538,7 +538,7 @@ ol li {
 }
 
 .notion-bookmark a:hover {
-    color: var(--color-text-light-legible) !important
+    color: var(--color-text-default-legible) !important
 }
 
 .notion-bookmark a:hover .notion-bookmark__title {
@@ -601,7 +601,7 @@ ol li {
 }
 
 .notion-callout.bg-purple-light:hover a {
-    color: var(--color-text-light) !important;
+    color: var(--color-text-default) !important;
     cursor: pointer !important
 }
 
@@ -638,7 +638,7 @@ ol li {
 }
 
 .notion-callout.bg-brown-light:hover a {
-    color: var(--color-text-light) !important;
+    color: var(--color-text-default) !important;
     cursor: pointer !important
 }
 
@@ -701,7 +701,7 @@ ol li {
 }
 
 .notion-callout.bg-blue-light:hover a {
-    color: var(--color-text-light) !important;
+    color: var(--color-text-default) !important;
     cursor: pointer !important
 }
 
@@ -915,7 +915,7 @@ ol li {
 }
 
 .medium>.notion-collection-card>.notion-collection-card__content>.notion-collection-card__property>.notion-property>span>span>span {
-    color: var(--color-text-light) !important;
+    color: var(--color-text-default) !important;
     font-size: .9em !important;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1304,14 +1304,14 @@ td {
 }
 
 .super-password-protection__input {
-    background: var(--color-bg-dark) !important;
+    background: var(--color-bg-default) !important;
     color: var(--color-primary) !important;
     border: 1px solid var(--color-primary) !important;
     border-radius: 0 !important
 }
 
 .super-password-protection__input input {
-    background: var(--color-bg-dark) !important;
+    background: var(--color-bg-default) !important;
     color: var(--color-primary) !important
 }
 
