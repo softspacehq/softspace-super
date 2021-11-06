@@ -39,7 +39,7 @@
 
     /* Super.so color variable overrides */
 
-    --color-text-default: var(--color-text-light);
+    --color-text-default: var(--color-text-light) !important;
     --color-text-gray: var(--color-gray) !important;
     --color-text-brown: var(--color-brown) !important;
     --color-text-orange: var(--color-orange) !important;
