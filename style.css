@@ -1,5 +1,5 @@
-/* Super.so CSS classes: https: //super.so/docs/css-classes */
-/* Super.so CSS colors: https: //super.so/docs/notion-colors */
+/* Super.so CSS classes: https://super.so/docs/css-classes */
+/* Super.so CSS colors: https://super.so/docs/notion-colors */
 
 :root {
 
@@ -208,7 +208,6 @@ body {
     -ms-animation: fadeInDown var(--dur-in-mid);
     -o-animation: fadeInDown var(--dur-in-mid); */
     animation: fadeIn var(--dur-in-mid) !important;
-    /* transition: var(--transition); */
 }
 
 .notion-breadcrumb__divider {
@@ -296,7 +295,7 @@ h1.notion-heading {
     -moz-animation: fadeInDown var(--dur-in-mid);
     -ms-animation: fadeInDown var(--dur-in-mid);
     -o-animation: fadeInDown var(--dur-in-mid); */
-    animation: fadeInDown var(--dur-in-slow) !important;
+    animation: fadeInDown var(--dur-in-mid) !important;
 }
 
 h1.notion-heading:not(:first-child)>span {
