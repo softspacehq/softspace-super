@@ -1072,7 +1072,7 @@ td {
 @keyframes fadeInDown {
     from {
         opacity: 0;
-        top: -25px
+        top: -50px
     }
 
     to {
