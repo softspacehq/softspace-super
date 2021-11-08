@@ -247,13 +247,13 @@ body {
     margin-bottom: -1000px !important;
     padding: 0 !important;
     width: 100% !important;
-    opacity: 1;
+    opacity: 1 !important;
     z-index: -10 !important;
-    -webkit-animation: coverFadeIn ease-in 1s;
-    -moz-animation: coverFadeIn ease-in 1s;
-    -ms-animation: coverFadeIn ease-in 1s;
-    -o-animation: coverFadeIn ease-in 1s;
-    animation: coverFadeIn ease-in 1s
+    -webkit-animation: fadeIn ease-in 1s;
+    -moz-animation: fadeIn ease-in 1s;
+    -ms-animation: fadeIn ease-in 1s;
+    -o-animation: fadeIn ease-in 1s;
+    animation: fadeIn ease-in 1s;
 }
 
 .notion-header__cover:after {
@@ -1075,7 +1075,7 @@ td {
     }
 }
 
-@-moz-keyframes fadeInDown {
+/* @-moz-keyframes fadeInDown {
     from {
         opacity: 0;
         top: -50px
@@ -1109,9 +1109,9 @@ td {
         opacity: 1;
         top: 0
     }
-}
+} */
 
-@keyframes coverFadeIn {
+@keyframes fadeIn {
     from {
         opacity: 0
     }
@@ -1121,7 +1121,7 @@ td {
     }
 }
 
-@-moz-keyframes coverFadeIn {
+/* @-moz-keyframes fadeIn {
     from {
         opacity: 0
     }
@@ -1131,7 +1131,7 @@ td {
     }
 }
 
-@-webkit-keyframes coverFadeIn {
+@-webkit-keyframes fadeIn {
     from {
         opacity: 0
     }
@@ -1141,7 +1141,7 @@ td {
     }
 }
 
-@-ms-keyframes coverFadeIn {
+@-ms-keyframes fadeIn {
     from {
         opacity: 0
     }
@@ -1149,7 +1149,7 @@ td {
     to {
         opacity: .3 !important
     }
-}
+} */
 
 @media all and (max-width:620px) {
     body {
