@@ -254,7 +254,7 @@ body {
     margin-bottom: -1000px !important;
     padding: 0 !important;
     width: 100% !important;
-    opacity: 1 !important;
+    opacity: 0.25 !important;
     z-index: -10 !important;
     -webkit-animation: fadeIn ease-in var(--dur-in-mid);
     -moz-animation: fadeIn ease-in var(--dur-in-mid);
