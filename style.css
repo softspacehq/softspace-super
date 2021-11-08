@@ -93,9 +93,13 @@
             hsla(var(--custprop-hsl-bg-dark), 0.987) 90.3%,
             hsl(var(--custprop-hsl-bg-dark)) 100%) !important;
 
+    /* Timing */
+
+    --dur-in-fast: 0.2s;
+
     /* Transitions */
 
-    --transition: all .2s ease-in-out !important;
+    --transition: all var(--dur-in-fast) ease-in-out !important;
 
     /* Sizes */
 
