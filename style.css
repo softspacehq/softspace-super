@@ -296,7 +296,7 @@ h1.notion-heading {
     -moz-animation: fadeInDown var(--dur-in-mid);
     -ms-animation: fadeInDown var(--dur-in-mid);
     -o-animation: fadeInDown var(--dur-in-mid); */
-    animation: fadeInDown 5s
+    animation: fadeInDown var(--dur-in-slow) !important;
 }
 
 h1.notion-heading:not(:first-child)>span {
