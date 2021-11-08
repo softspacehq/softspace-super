@@ -207,8 +207,8 @@ body {
     -moz-animation: fadeInDown var(--dur-in-mid);
     -ms-animation: fadeInDown var(--dur-in-mid);
     -o-animation: fadeInDown var(--dur-in-mid); */
-    /* animation: fadeInDown var(--dur-in-mid) */
-    transition: var(--transition);
+    animation: fadeIn var(--dur-in-mid) !important;
+    /* transition: var(--transition); */
 }
 
 .notion-breadcrumb__divider {
