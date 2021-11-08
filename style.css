@@ -202,6 +202,7 @@ body {
     -ms-animation: fadeInDown 1s;
     -o-animation: fadeInDown 1s; */
     /* animation: fadeInDown 1s */
+    transition: var(--transition);
 }
 
 .notion-breadcrumb__divider {
