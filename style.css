@@ -96,6 +96,7 @@
     /* Timing */
 
     --dur-in-fast: 0.2s;
+    --dur-in-mid: 1.0s;
 
     /* Transitions */
 
@@ -201,11 +202,11 @@ body {
     background-color: transparent !important;
     position: fixed !important;
     position: -webkit-fixed !important;
-    /* -webkit-animation: fadeInDown 1s;
-    -moz-animation: fadeInDown 1s;
-    -ms-animation: fadeInDown 1s;
-    -o-animation: fadeInDown 1s; */
-    /* animation: fadeInDown 1s */
+    /* -webkit-animation: fadeInDown var(--dur-in-mid);
+    -moz-animation: fadeInDown var(--dur-in-mid);
+    -ms-animation: fadeInDown var(--dur-in-mid);
+    -o-animation: fadeInDown var(--dur-in-mid); */
+    /* animation: fadeInDown var(--dur-in-mid) */
     transition: var(--transition);
 }
 
@@ -254,11 +255,11 @@ body {
     width: 100% !important;
     opacity: 1 !important;
     z-index: -10 !important;
-    -webkit-animation: fadeIn ease-in 1s;
-    -moz-animation: fadeIn ease-in 1s;
-    -ms-animation: fadeIn ease-in 1s;
-    -o-animation: fadeIn ease-in 1s;
-    animation: fadeIn ease-in 1s;
+    -webkit-animation: fadeIn ease-in var(--dur-in-mid);
+    -moz-animation: fadeIn ease-in var(--dur-in-mid);
+    -ms-animation: fadeIn ease-in var(--dur-in-mid);
+    -o-animation: fadeIn ease-in var(--dur-in-mid);
+    animation: fadeIn ease-in var(--dur-in-mid);
 }
 
 .notion-header__cover:after {
@@ -290,10 +291,10 @@ h1.notion-heading {
     margin-bottom: 60px !important;
     height: 80vh !important;
     max-width: 64vw !important;
-    /* -webkit-animation: fadeInDown 1s;
-    -moz-animation: fadeInDown 1s;
-    -ms-animation: fadeInDown 1s;
-    -o-animation: fadeInDown 1s; */
+    /* -webkit-animation: fadeInDown var(--dur-in-mid);
+    -moz-animation: fadeInDown var(--dur-in-mid);
+    -ms-animation: fadeInDown var(--dur-in-mid);
+    -o-animation: fadeInDown var(--dur-in-mid); */
     animation: fadeInDown 5s
 }
 
@@ -1053,11 +1054,11 @@ td {
     top: 0 !important;
     width: auto !important;
     text-align: right !important;
-    /* -webkit-animation: fadeInDown 1s;
-    -moz-animation: fadeInDown 1s;
-    -ms-animation: fadeInDown 1s;
-    -o-animation: fadeInDown 1s; */
-    animation: fadeInDown 1s
+    /* -webkit-animation: fadeInDown var(--dur-in-mid);
+    -moz-animation: fadeInDown var(--dur-in-mid);
+    -ms-animation: fadeInDown var(--dur-in-mid);
+    -o-animation: fadeInDown var(--dur-in-mid); */
+    animation: fadeInDown var(--dur-in-mid)
 }
 
 .notion-root .notion-collection:first-child table tbody tr td {
