@@ -289,7 +289,7 @@ h1.notion-heading {
     -moz-animation: fadeInDown 1s;
     -ms-animation: fadeInDown 1s;
     -o-animation: fadeInDown 1s; */
-    animation: fadeInDown 1s
+    animation: fadeInDown 5s
 }
 
 h1.notion-heading:not(:first-child)>span {
