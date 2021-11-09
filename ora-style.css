@@ -1,0 +1,323 @@
+/*—————————————————————————————————————————————*/
+/* Misc. */
+
+
+/* Variables */
+:root {
+    --transition: all 0.3s !important;
+}
+
+/* Hides certain elements */
+.notion-page__icon,
+.notion-toggle.bg-gray,
+.notion-header__content,
+.notion-property__title__icon-wrapper,
+.notion-breadcrumb__divider,
+.notion-collection__header,
+.notion-breadcrumb__item {
+    display: none !important;
+}
+
+/* Fixed board issue */
+.notion-collection-board .large {
+    overflow: hidden !important;
+}
+
+.notion-collection-board {
+    overflow: hidden !important;
+}
+
+/* Loading animation */
+
+body {
+    -webkit-animation: fadeIn 1s !important;
+    -moz-animation: fadeIn 1s !important;
+    animation: fadeIn 1s !important;
+}
+
+#page-index h1 {
+    -webkit-animation: fadeInUp 1s !important;
+    -moz-animati7on: fadeInUp 1s !important;
+    animation: fadeInUp 1s !important;
+}
+
+#page-index h2 {
+    -webkit-animation: fadeInUp 1s !important;
+    -moz-animati7on: fadeInUp 1s !important;
+    animation: fadeInUp 1s !important;
+}
+
+#page-index h3 {
+    -webkit-animation: fadeInUp 1s !important;
+    -moz-animati7on: fadeInUp 1s !important;
+    animation: fadeInUp 1s !important;
+}
+
+#page-index .notion-text {
+    -webkit-animation: fadeInUp 1s !important;
+    -moz-animati7on: fadeInUp 1s !important;
+    animation: fadeInUp 1s !important;
+}
+
+#page-index .notion-collection {
+    -webkit-animation: fadeInUp 1s !important;
+    -moz-animati7on: fadeInUp 1s !important;
+    animation: fadeInUp 1s !important;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translate3d(0, 80px, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-moz-keyframes fadeInUp {
+    0% {
+        transform: translate3d(0, 80px, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        transform: translate3d(0, 80px, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* Super wrapper*/
+#page-index .super-content.max-width {
+    max-width: 1344px !important;
+    padding: 0px 48px !important;
+}
+
+/* Blog posts wrapper */
+.super-content.max-width {
+    max-width: 996px !important;
+    padding: 0px 48px !important;
+}
+
+/* Always show the page title */
+.notion-navbar a[href="/"] {
+    display: flex !important;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 400 !important;
+}
+
+p {
+    font-size: 18px !important;
+    line-height: 200% !important;
+}
+
+/* Width limit only on homepage */
+#page-index h1 {
+    font-size: 48px !important;
+    max-width: 700px !important;
+}
+
+.notion-quote>* {
+    text-decoration: none !important;
+}
+
+.notion-header.page {
+    margin-bottom: 0px !important;
+    padding: 0px 48px !important;
+}
+
+.notion-header__cover.no-cover {
+    max-height: 0px !important;
+}
+
+/* Divider */
+.notion-divider {
+    border-bottom: 1px solid var(--divider-color) !important;
+}
+
+/*—————————————————————————————————————————————*/
+/* Links  */
+
+.notion-link,
+.link {
+    color: var(--color-text-gray) !important;
+    text-decoration: none !important;
+    border: none !important;
+    transition: var(--transition) !important;
+}
+
+.notion-link:hover,
+link:hover {
+    color: var(--text-color) !important;
+    transition: var(--transition) !important;
+}
+
+/*—————————————————————————————————————————————*/
+/* Footer */
+
+.notion-quote {
+    flex-direction: column !important;
+    position: relative !important;
+    z-index: auto !important;
+    display: flex !important;
+    border: none !important;
+    height: auto !important;
+    right: auto !important;
+    left: auto !important;
+    padding: 0 !important;
+    top: auto !important;
+}
+
+.notion-quote span,
+.notion-quote .link {
+    display: block !important;
+    width: 100% !important;
+}
+
+.notion-quote .notion-semantic-string .link {
+    font-size: 28px !important;
+    font-weight: 400 !important;
+}
+
+/*—————————————————————————————————————————————*/
+/* Code block */
+code {
+    color: var(--color-text-gray) !important;
+    text-shadow: none !important;
+}
+
+.notion-code>pre {
+    background-color: var(--divider-color) !important;
+}
+
+.token {
+    background-color: transparent !important;
+}
+
+/*—————————————————————————————————————————————*/
+/* Tweet */
+.static-tweet-p {
+    color: #1c2022 !important;
+}
+
+
+/*—————————————————————————————————————————————*/
+/* About page */
+
+/* max height for first image only */
+#page-about img:first-child {
+    max-height: 450px !important;
+}
+
+#page-about img[style] {
+    object-fit: cover !important;
+}
+
+/*—————————————————————————————————————————————*/
+/* Blog post page */
+
+.notion-header__cover,
+.has-cover {
+    max-width: 900px !important;
+    margin: 150px auto 64px auto !important;
+    border-radius: 10px !important;
+    height: 360px !important;
+    max-height: 360px !important;
+}
+
+/* For card in blog template */
+.notion-collection-board__item {
+    height: 300px !important;
+    margin-bottom: 0px !important;
+}
+
+.notion-collection-board {
+    display: flex !important;
+    border-top: 0px !important;
+    margin: 48px 0px
+}
+
+/*—————————————————————————————————————————————*/
+/* Mobile styles  */
+
+@media screen and (max-width: 600px) {
+
+    #page-index .super-content {
+        margin-top: 160px !important;
+    }
+
+    .notion-header__cover.no-cover {
+        max-height: 0px !important;
+    }
+
+    #page-index .notion-header__cover {
+        margin: 48px auto !important;
+    }
+
+    .notion-header__cover,
+    .has-cover {
+        margin: 150px auto 64px auto !important;
+        max-height: 300px !important;
+        height: 300px !important;
+    }
+
+    .super-content.max-width,
+    #page-index .super-content.max-width {
+        padding: 0px 24px !important;
+    }
+
+    #page-index h1 {
+        font-size: 32px !important;
+    }
+
+    .notion-header.page {
+        padding: 0px 24px !important;
+    }
+}
