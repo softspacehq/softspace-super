@@ -1,0 +1,32 @@
+.notion-collection__header {
+    display: none !important
+}
+
+.notion-root .notion-collection:first-child table {
+    justify-content: flex-end !important;
+    align-items: center !important;
+    position: fixed !important;
+    z-index: 9999 !important;
+    display: flex !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 10px 25px 20px 0 !important;
+    margin-top: 9px !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: auto !important;
+    text-align: right !important;
+    /* -webkit-animation: fadeInDown var(--dur-in-mid);
+    -moz-animation: fadeInDown var(--dur-in-mid);
+    -ms-animation: fadeInDown var(--dur-in-mid);
+    -o-animation: fadeInDown var(--dur-in-mid); */
+    animation: fadeInDown var(--dur-in-mid)
+}
+
+.notion-root .notion-collection:first-child table tbody tr td {
+    padding: 0 !important
+}
+
+.notion-root .notion-collection:first-child table tbody tr {
+    margin-left: auto !important
+}

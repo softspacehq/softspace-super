@@ -1,0 +1,24 @@
+.notion-collection-table__body>tr:nth-child(1)>td:nth-child(2) {
+    padding-bottom: 0 !important
+}
+
+.notion-collection-table__body>tr:not(:first-child)>td>.notion-property>span>span {
+    opacity: .3 !important
+}
+
+.notion-collection-table {
+    margin-bottom: 0
+}
+
+.notion-collection-table__head {
+    display: none
+}
+
+.notion-collection-table {
+    width: 100%
+}
+
+.notion-collection-table td,
+.notion-collection-table th {
+    border: 0 !important
+}

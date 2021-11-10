@@ -27,13 +27,7 @@ body {
 
 
 
-.notion-column {
-    padding: 0 !important
-}
 
-.notion-column h2 {
-    margin-bottom: 15px
-}
 
 
 
@@ -286,51 +280,11 @@ ol li {
     border-radius: 10px !important
 }
 
-.notion-collection-list__item-content,
 .notion-property__title__icon-wrapper {
     display: none !important
 }
 
-.notion-collection-card {
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    position: relative !important;
-    width: 100% !important;
-    background: 0 0 !important
-}
 
-.notion-collection-card__cover,
-.notion-collection-card__cover div,
-.notion-collection-card__cover img {
-    max-height: 700px !important;
-    height: 700px !important;
-    border-radius: 0 !important;
-    margin-bottom: 5px !important;
-    border: 0 !important;
-    transition: var(--transition) !important
-}
-
-.notion-collection__header {
-    display: none !important
-}
-
-.notion-collection-gallery {
-    display: flex !important;
-    flex-direction: column !important;
-    border: 0 !important;
-    grid-gap: 0 !important;
-    border: none !important;
-    padding: 0 !important
-}
-
-.notion-collection-card:hover .notion-collection-card__cover {
-    background: 0 0 !important;
-    opacity: .4 !important
-}
-
-.notion-collection-card:hover .notion-property__title {
-    color: var(--color-primary) !important
-}
 
 .project-arrow {
     width: 24px !important;
@@ -342,17 +296,7 @@ ol li {
     transition: var(--transition)
 }
 
-.notion-collection-card:hover .project-arrow {
-    opacity: 1 !important
-}
 
-.notion-collection-card__anchor {
-    height: 100% !important
-}
-
-.notion-collection-gallery .large {
-    margin-top: 0 !important
-}
 
 .notion-property__title {
     padding: 0 !important;
@@ -479,74 +423,8 @@ td {
     width: 100% !important
 }
 
-.notion-collection-table__body>tr:nth-child(1)>td:nth-child(2) {
-    padding-bottom: 0 !important
-}
 
-.notion-collection-table__body>tr:not(:first-child)>td>.notion-property>span>span {
-    opacity: .3 !important
-}
 
 .no-click {
     display: none !important
-}
-
-.notion-collection-table {
-    margin-bottom: 0
-}
-
-.notion-collection-table__head {
-    display: none
-}
-
-.notion-collection-table {
-    width: 100%
-}
-
-.notion-collection-table td,
-.notion-collection-table th {
-    border: 0 !important
-}
-
-.notion-root .notion-collection:first-child table {
-    justify-content: flex-end !important;
-    align-items: center !important;
-    position: fixed !important;
-    z-index: 9999 !important;
-    display: flex !important;
-    border: none !important;
-    margin: 0 !important;
-    padding: 10px 25px 20px 0 !important;
-    margin-top: 9px !important;
-    right: 0 !important;
-    top: 0 !important;
-    width: auto !important;
-    text-align: right !important;
-    /* -webkit-animation: fadeInDown var(--dur-in-mid);
-    -moz-animation: fadeInDown var(--dur-in-mid);
-    -ms-animation: fadeInDown var(--dur-in-mid);
-    -o-animation: fadeInDown var(--dur-in-mid); */
-    animation: fadeInDown var(--dur-in-mid)
-}
-
-.notion-root .notion-collection:first-child table tbody tr td {
-    padding: 0 !important
-}
-
-.notion-root .notion-collection:first-child table tbody tr {
-    margin-left: auto !important
-}
-
-
-
-
-
-
-.notion-collection-card__cover.large,
-.notion-collection-card__cover.large img,
-.notion-collection-card__cover.large>span,
-.notion-collection-card__cover.medium,
-.notion-collection-card__cover.medium img,
-.notion-collection-card__cover.medium>span {
-    max-height: 100% !important
 }
