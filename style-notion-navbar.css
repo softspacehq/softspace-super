@@ -26,6 +26,8 @@
     color: var(--color-primary) !important
 }
 
+.notion-navbar__icon {}
+
 .notion-navbar {
     height: auto !important;
     padding: 20px !important;

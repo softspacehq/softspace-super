@@ -25,11 +25,7 @@ body {
 
 
 
-.notion-header.page,
-.notion-header__title-wrapper,
-.notion-page__properties {
-    display: none
-}
+
 
 .notion-column {
     padding: 0 !important
@@ -39,50 +35,7 @@ body {
     margin-bottom: 15px
 }
 
-.notion-header__content .has-cover {
-    display: none !important
-}
 
-.notion-header {
-    display: block !important;
-    position: relative !important;
-    margin: 0 !important;
-    margin-bottom: 0 !important;
-    width: 100% !important;
-    height: 100% !important
-}
-
-.notion-header__cover {
-    position: absolute !important;
-    height: 100vh !important;
-    max-height: 125vw !important;
-    margin-top: 0 !important;
-    margin-bottom: -1000px !important;
-    padding: 0 !important;
-    width: 100% !important;
-    opacity: 0.5 !important;
-    z-index: -10 !important;
-    -webkit-animation: fadeIn ease-in var(--dur-in-mid);
-    -moz-animation: fadeIn ease-in var(--dur-in-mid);
-    -ms-animation: fadeIn ease-in var(--dur-in-mid);
-    -o-animation: fadeIn ease-in var(--dur-in-mid);
-    animation: fadeIn ease-in var(--dur-in-mid);
-}
-
-.notion-header__cover:after {
-    content: "";
-    position: absolute !important;
-    height: 100vh !important;
-    max-height: 125vw !important;
-    margin-top: 0 !important;
-    margin-bottom: -1000px !important;
-    padding: 0 !important;
-    width: 100% !important;
-    z-index: 1;
-    background-image: var(--gradient-bg-dark) !important;
-    /*width: 100%;*/
-    /*height: 100% !important*/
-}
 
 
 
