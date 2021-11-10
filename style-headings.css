@@ -1,0 +1,53 @@
+h1.notion-heading {
+    margin-bottom: 0 !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding-left: 0 !important;
+    font-weight: 300 !important
+}
+
+.notion-root>h1 {
+    margin-top: 0 !important;
+    margin-bottom: 60px !important;
+    height: 80vh !important;
+    max-width: 64vw !important;
+    /* -webkit-animation: fadeInDown var(--dur-in-mid);
+    -moz-animation: fadeInDown var(--dur-in-mid);
+    -ms-animation: fadeInDown var(--dur-in-mid);
+    -o-animation: fadeInDown var(--dur-in-mid); */
+    animation: fadeInDown var(--dur-in-mid) !important;
+}
+
+h1.notion-heading:not(:first-child)>span {
+    margin-top: auto !important;
+    margin-bottom: 0 !important
+}
+
+h1 {
+    font-size: 3.2em !important;
+    font-weight: 300 !important;
+    letter-spacing: -1.5px !important
+}
+
+h2,
+h4,
+h5 {
+    font-size: 1.1em !important;
+    font-weight: 300 !important;
+    margin-top: 0 !important;
+    padding: 0 !important;
+    line-height: 1.5 !important
+}
+
+h3 {
+    font-size: .8em !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    margin-bottom: 10px !important
+}
+
+p {
+    font-size: 1.1em !important;
+    margin-top: 0 !important
+}
