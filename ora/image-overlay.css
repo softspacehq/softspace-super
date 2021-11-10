@@ -1,0 +1,9 @@
+/* Adds a slight overlay to the bottom of image cards to increase readability on bright images */
+
+.notion-collection-card__cover > div {
+    background: linear-gradient(to top, rgba(0,0,0, 0.40), transparent 40%) !important;
+}
+
+.notion-collection-card__cover > div > img {
+  z-index: -3 !important;
+}

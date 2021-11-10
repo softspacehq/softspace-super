@@ -1,0 +1,32 @@
+:root {
+  --text-color: #000 !important;
+  --background-color: #fff !important;
+  --color-text-gray: #5A6774 !important;
+  --divider-color: #F2F2F2 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #fff !important;
+    --background-color: #000 !important;
+    --color-text-gray: #929da6 !important;
+    --divider-color: #191919 !important;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li {
+  color: var(--text-color) !important;
+}
+
+body {
+  background-color: var(--background-color) !important;
+}

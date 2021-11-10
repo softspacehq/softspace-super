@@ -303,21 +303,21 @@ code {
 
     .notion-header__cover,
     .has-cover {
-        margin: 150px auto 64px auto !important;
-        max-height: 300px !important;
-        height: 300px !important;
-    }
+      margin: 150px auto 64px auto !important;
+      max-height: 300px !important;
+      height: 300px !important;
+  }
 
-    .super-content.max-width,
-    #page-index .super-content.max-width {
-        padding: 0px 24px !important;
-    }
+  .super-content.max-width,
+  #page-index .super-content.max-width {
+      padding: 0px 24px !important;
+  }
 
-    #page-index h1 {
-        font-size: 32px !important;
-    }
+  #page-index h1 {
+      font-size: 32px !important;
+  }
 
-    .notion-header.page {
-        padding: 0px 24px !important;
-    }
-}
+  .notion-header.page {
+      padding: 0px 24px !important;
+  }
+  }

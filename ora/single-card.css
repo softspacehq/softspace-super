@@ -1,0 +1,104 @@
+/*—————————————————————————————————————————————*/
+/* Blog cards container */
+
+.notion-collection-board__column-header {
+  display: none !important;
+}
+
+#page-index .notion-collection-board {
+  display: flex !important;
+  border-top: 0px !important;
+  margin-top: 96px !important;
+}
+
+#page-index .notion-collection-board__column {
+  display: grid !important;
+  grid-template-columns: repeat(1, minmax(258px, 1fr)) !important;
+  grid-gap: 48px !important;
+}
+
+/*——————————————————————*/
+/* Blog cards */
+
+#page-index .notion-collection-board__column > div {
+  margin-bottom: 0px !important;
+  height: 620px !important;
+}
+
+.notion-collection-card {
+  display: flex !important;
+  flex-direction: column-reverse  !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  box-shadow: none !important;
+  border-radius: 10px !important;
+  transition: transform 0.4s !important;
+  transform: scale(1) !important;
+  background: transparent !important;
+}
+
+.notion-collection-card:hover {
+  background: transparent !important;
+  transform: scale(0.94) !important;
+  transition: transform 0.4s !important;
+}
+
+/* Card image  */
+.notion-collection-card__cover {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  z-index: -1 !important;
+  border-bottom: 0px !important;
+}
+
+.notion-collection-card__cover > * {
+  height: 100% !important;
+  max-height: 100% !important;
+}
+
+.notion-collection-card__cover div img {
+  height: 100% !important;
+  max-height: 100% !important;
+}
+
+/* card date */
+.notion-collection-card__content {
+  padding: 32px 32px 4px 32px !important;
+  font-size: 14px !important;
+}
+
+.notion-semantic-string .date {
+  color: #fff !important;
+}
+
+/* card title  */
+
+.notion-property__title {
+  padding: 0px 32px 32px 32px !important;
+  color: #fff !important;
+  font-size: 24px !important;
+}
+
+/*——————————————————————*/
+/* Mobile */
+@media screen and (max-width: 600px) {
+ .notion-collection-board {
+   margin-top: 64px !important;
+   grid-gap: 32px !important;/* display: flex; */
+  }
+
+  #page-index .notion-collection-board__column > div {
+    margin-bottom: 0px !important;
+    height: 500px !important;
+  }
+
+  #page-index .notion-collection-board__column {
+    grid-template-columns: 1fr !important;
+  }
+
+  .notion-collection-card {
+    grid-column: 1 / 1 !important;
+  }
+}
