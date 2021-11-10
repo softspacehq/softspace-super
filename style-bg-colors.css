@@ -1,0 +1,33 @@
+.bg-gray,
+.bg-green,
+.bg-orange,
+.bg-yellow {
+    color: var(--color-text-dark) !important
+}
+
+.notion-text.bg-brown>p,
+.notion-text.bg-gray>p,
+.notion-text.bg-green>p,
+.notion-text.bg-orange>p,
+.notion-text.bg-pink>p,
+.notion-text.bg-red>p,
+.notion-text.bg-yellow>p {
+    color: var(--color-text-dark) !important
+}
+
+.notion-text.bg-blue>p,
+.notion-text.bg-purple>p {
+    color: var(--color-text-default) !important
+}
+
+.notion-text.bg-blue>p,
+.notion-text.bg-brown>p,
+.notion-text.bg-gray>p,
+.notion-text.bg-green>p,
+.notion-text.bg-orange>p,
+.notion-text.bg-pink>p,
+.notion-text.bg-purple>p,
+.notion-text.bg-red>p,
+.notion-text.bg-yellow>p {
+    margin-top: 3px !important
+}
