@@ -5,3 +5,28 @@
 .notion-column h2 {
     margin-bottom: 15px
 }
+
+.notion-column .notion-quote,
+.notion-column p {
+    max-width: 640px !important
+}
+
+.notion-column>ul {
+    max-width: 640px !important
+}
+
+.notion-column>h2 {
+    max-width: 640px !important
+}
+
+.notion-column>h1 {
+    max-width: 640px !important
+}
+
+.notion-column>h3 {
+    max-width: 640px !important
+}
+
+.notion-column>ol {
+    max-width: 640px !important
+}

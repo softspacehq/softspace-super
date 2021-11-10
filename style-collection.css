@@ -30,3 +30,22 @@
 .notion-root .notion-collection:first-child table tbody tr {
     margin-left: auto !important
 }
+
+.notion-property__title__icon-wrapper {
+    display: none !important
+}
+
+.notion-property__title {
+    padding: 0 !important;
+    font-size: 1.1em !important;
+    transition: var(--transition)
+}
+
+.notion-property__title>span {
+    font-weight: 300 !important;
+    line-height: 23px
+}
+
+.notion-property__date property-62447d5e {
+    color: red !important
+}

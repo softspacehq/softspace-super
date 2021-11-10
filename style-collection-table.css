@@ -22,3 +22,12 @@
 .notion-collection-table th {
     border: 0 !important
 }
+
+.notion-collection-table__cell>div>span {
+    display: flex !important
+}
+
+.notion-collection-table__cell.text {
+    padding-left: 0 !important;
+    height: auto !important
+}
