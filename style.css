@@ -23,45 +23,6 @@ body {
     max-width: var(--max-width) !important
 }
 
-.notion-navbar>a {
-    border-bottom: none !important;
-    padding: 0 !important
-}
-
-.notion-navbar>a:visited {
-    color: var(--color-text-default-legible) !important
-}
-
-.notion-navbar>a:hover {
-    background: 0 0 !important;
-    color: var(--color-primary) !important
-}
-
-.notion-navbar__title {
-    color: var(--color-text-default) !important;
-    font-size: 1.1em !important;
-    transition: var(--transition);
-    z-index: 50 !important
-}
-
-.notion-navbar__title:hover {
-    color: var(--color-primary) !important
-}
-
-.notion-navbar {
-    height: auto !important;
-    padding: 20px !important;
-    background: 0 0 !important;
-    background-color: transparent !important;
-    position: fixed !important;
-    position: -webkit-fixed !important;
-    /* -webkit-animation: fadeInDown var(--dur-in-mid);
-    -moz-animation: fadeInDown var(--dur-in-mid);
-    -ms-animation: fadeInDown var(--dur-in-mid);
-    -o-animation: fadeInDown var(--dur-in-mid); */
-    animation: fadeIn var(--dur-in-mid) !important;
-}
-
 .notion-breadcrumb__divider {
     display: none
 }
