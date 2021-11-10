@@ -1,3 +1,6 @@
+/* Keyframes controlling animations */
+
+
 @keyframes fadeInDown {
     from {
         opacity: 0;
