@@ -1,3 +1,6 @@
+/* Styling Notion's default navbar */
+
+
 .notion-navbar>a {
     border-bottom: none !important;
     padding: 0 !important
@@ -35,4 +38,12 @@
     -ms-animation: fadeInDown var(--dur-in-mid);
     -o-animation: fadeInDown var(--dur-in-mid); */
     animation: fadeIn var(--dur-in-mid) !important;
+}
+
+.notion-breadcrumb__divider {
+    display: none
+}
+
+.notion-breadcrumb__item:not(:first-child) {
+    display: none !important
 }

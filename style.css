@@ -23,13 +23,7 @@ body {
     max-width: var(--max-width) !important
 }
 
-.notion-breadcrumb__divider {
-    display: none
-}
 
-.notion-breadcrumb__item:not(:first-child) {
-    display: none !important
-}
 
 .notion-header.page,
 .notion-header__title-wrapper,
