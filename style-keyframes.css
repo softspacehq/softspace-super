@@ -1,0 +1,87 @@
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        top: -50px
+    }
+
+    to {
+        opacity: 1;
+        top: 0
+    }
+}
+
+/* @-moz-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        top: -50px
+    }
+
+    to {
+        opacity: 1;
+        top: 0
+    }
+}
+
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        top: -50px
+    }
+
+    to {
+        opacity: 1;
+        top: 0
+    }
+}
+
+@-ms-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        top: -50px
+    }
+
+    to {
+        opacity: 1;
+        top: 0
+    }
+} */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: .3 !important
+    }
+}
+
+/* @-moz-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: .3 !important
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: .3 !important
+    }
+}
+
+@-ms-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: .3 !important
+    }
+} */
