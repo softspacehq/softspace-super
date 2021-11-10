@@ -14,16 +14,6 @@ body {
     font-size: var(--font-size) !important
 }
 
-::-moz-selection {
-    background: var(--color-primary) !important;
-    color: var(--color-text-dark) !important
-}
-
-::selection {
-    background: var(--color-primary) !important;
-    color: var(--color-text-dark) !important
-}
-
 .super-content {
     max-width: 100% !important;
     padding: 0 20px !important

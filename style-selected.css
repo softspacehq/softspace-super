@@ -1,0 +1,12 @@
+/* Styling text that has been selected in browser */
+
+
+:-moz-selection {
+    background: var(--color-primary) !important;
+    color: var(--color-text-dark) !important
+}
+
+::selection {
+    background: var(--color-primary) !important;
+    color: var(--color-text-dark) !important
+}
