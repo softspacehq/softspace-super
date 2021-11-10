@@ -1,0 +1,243 @@
+/* Styling Notion callouts (which become buttons in Super) */
+
+.notion-callout.border> {
+    display: block !important
+}
+
+.notion-callout {
+    border: 1px solid var(--color-primary) !important;
+    color: var(--color-primary) !important;
+    background: 0 0 !important;
+    font-size: 1.2rem !important;
+    border-radius: 0 !important;
+    align-self: flex-start;
+    transition: var(--transition);
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: 15px !important
+}
+
+.notion-callout.bg-green-light {
+    border: 1px solid transparent !important;
+    background: 0 0 !important;
+    color: var(--color-text-green) !important
+}
+
+.notion-callout.bg-green-light a {
+    border: 1px solid var(--color-green) !important;
+    background: 0 0 !important;
+    color: var(--color-text-green) !important
+}
+
+.notion-callout.bg-green-light:hover {
+    background: var(--color-green) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-green-light:hover a {
+    color: var(--color-text-dark) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-purple-light {
+    border: 1px solid var(--color-purple) !important;
+    background: 0 0 !important;
+    color: var(--color-purple) !important
+}
+
+.notion-callout.bg-purple-light a {
+    background: 0 0 !important;
+    color: var(--color-purple) !important
+}
+
+.notion-callout.bg-purple-light:hover {
+    background: var(--color-purple) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-purple-light:hover a {
+    color: var(--color-text-default) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-gray-light {
+    border: 1px solid var(--color-gray) !important;
+    background: 0 0 !important;
+    color: var(--color-gray) !important
+}
+
+.notion-callout.bg-gray-light a {
+    background: 0 0 !important;
+    color: var(--color-gray) !important
+}
+
+.notion-callout.bg-gray-light:hover {
+    background: var(--color-gray) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-brown-light {
+    border: 1px solid var(--color-brown) !important;
+    background: 0 0 !important;
+    color: var(--color-brown) !important
+}
+
+.notion-callout.bg-brown-light a {
+    background: 0 0 !important;
+    color: var(--color-brown) !important
+}
+
+.notion-callout.bg-brown-light:hover {
+    background: var(--color-brown) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-brown-light:hover a {
+    color: var(--color-text-default) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-orange-light {
+    border: 1px solid var(--color-orange) !important;
+    background: 0 0 !important;
+    color: var(--color-orange) !important
+}
+
+.notion-callout.bg-orange-light a {
+    background: 0 0 !important;
+    color: var(--color-orange) !important
+}
+
+.notion-callout.bg-orange-light:hover {
+    background: var(--color-orange) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-orange-light:hover a {
+    color: var(--color-text-dark) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-yellow-light {
+    border: 1px solid var(--color-bg-yellow) !important;
+    background: 0 0 !important;
+    color: var(--color-text-yellow) !important
+}
+
+.notion-callout.bg-yellow-light a {
+    background: 0 0 !important;
+    color: var(--color-text-yellow) !important
+}
+
+.notion-callout.bg-yellow-light:hover {
+    background: var(--color-bg-yellow) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-yellow-light:hover a {
+    color: var(--color-text-dark) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-blue-light {
+    border: 1px solid var(--color-blue) !important;
+    background: 0 0 !important;
+    color: var(--color-blue) !important
+}
+
+.notion-callout.bg-blue-light a {
+    background: 0 0 !important;
+    color: var(--color-blue) !important
+}
+
+.notion-callout.bg-blue-light:hover {
+    background: var(--color-blue) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-blue-light:hover a {
+    color: var(--color-text-default) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-pink-light {
+    border: 1px solid var(--color-pink) !important;
+    background: 0 0 !important;
+    color: var(--color-pink) !important
+}
+
+.notion-callout.bg-pink-light a {
+    background: 0 0 !important;
+    color: var(--color-pink) !important
+}
+
+.notion-callout.bg-pink-light:hover {
+    background: var(--color-pink) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-pink-light:hover a {
+    color: var(--color-text-dark) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-red-light {
+    border: 1px solid var(--color-red) !important;
+    background: 0 0 !important;
+    color: var(--color-red) !important
+}
+
+.notion-callout.bg-red-light a {
+    background: 0 0 !important;
+    color: var(--color-red) !important
+}
+
+.notion-callout.bg-red-light:hover {
+    background: var(--color-red) !important;
+    cursor: pointer !important
+}
+
+.notion-callout.bg-red-light:hover a {
+    color: var(--color-text-dark) !important;
+    cursor: pointer !important
+}
+
+.notion-callout__content {
+    margin-left: 0 !important
+}
+
+.notion-callout.bg-gray-light {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important
+}
+
+.notion-callout__icon {
+    display: none !important
+}
+
+.notion-callout a {
+    width: 100% !important;
+    height: 100% !important;
+    color: var(--color-text-dark);
+    display: flex !important;
+    margin: 0 !important;
+    padding: 10px !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: .9em !important;
+    text-decoration: none !important;
+    border-bottom: 0 !important
+}
+
+.notion-callout:hover {
+    background: var(--color-primary) !important;
+    cursor: pointer !important
+}
+
+.notion-callout:hover a {
+    color: var(--color-text-dark) !important;
+    cursor: pointer !important
+}
