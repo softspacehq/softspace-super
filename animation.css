@@ -6,14 +6,6 @@
     --ease-default: ease-out;
 
     --transition: all var(--dur-in-mid) var(--ease-default);
-
-    --anim-in-fast: fadein var(--dur-in-fast) var(--ease-default);
-    --anim-in-mid: fadein var(--dur-in-mid) var(--ease-default);
-    --anim-in-slow: fadein var(--dur-in-slow) var(--ease-default);
-
-    --anim-inDown-fast: fadein var(--dur-in-fast) var(--ease-default);
-    --anim-inDown-mid: fadein var(--dur-in-mid) var(--ease-default);
-    --anim-inDown-slow: fadein var(--dur-in-slow) var(--ease-default);
 }
 
 @keyframes fadeIn {

@@ -8,9 +8,13 @@
     display: none !important;
 }
 
-/*Style Notion header cover*/
-/* .notion-header__cover.has-cover {
-    position: absolute !important;
+/* Constrain Notion header max height */
+.notion-header.page {
+    max-height: 50vh !important;
+}
+
+/* Make Notion header cover image full-screen */
+.notion-header__cover.has-cover {
     width: 100vw !important;
     height: 100vh !important;
     max-height: 200vw !important;
@@ -18,8 +22,8 @@
     opacity: 0.25 !important;
     z-index: -10 !important;
 
-    animation: var(anim-in-mid);
-} */
+    animation: fadeIn var(--dur-in-slow) var(--ease-default) !important;
+}
 
 /*Draw an image over Notion header cover*/
 /*':after' creates a pseudo element that is the last child of the selected element*/
