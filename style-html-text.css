@@ -1,0 +1,27 @@
+.notion-text__content {
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+p>* {
+    line-height: 1.5 !important;
+    letter-spacing: -.2px !important
+}
+
+p>span>span>a {
+    border-bottom: 1px solid var(--color-primary) !important;
+    padding-bottom: 2px !important
+}
+
+p>span>span>a:visited {
+    color: var(--color-text-default-legible) !important
+}
+
+p code {
+    font-size: .8em !important
+}
+
+p {
+    font-size: 1.1em !important;
+    margin-top: 0 !important
+}

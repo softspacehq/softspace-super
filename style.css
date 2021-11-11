@@ -140,41 +140,11 @@ a:hover {
     opacity: .4 !important
 }
 
-.notion-bulleted-list {
-    list-style: none !important
-}
 
-.notion-bulleted-list li {
-    margin: 6px 0 !important
-}
 
-.notion-list-item>span {
-    padding-left: 8px !important
-}
 
-ul>.notion-list-item:before {
-    content: "⟶";
-    opacity: .3 !important;
-    display: inline-block;
-    margin-left: -1em;
-    font-size: 16px !important
-}
 
-ul {
-    font-size: 1.1em !important
-}
 
-.notion-list-item>span {
-    color: var(--color-text-default-legible) !important
-}
-
-ol li {
-    color: #737477 !important
-}
-
-.notion-numbered-list li {
-    margin: 10px 0 !important
-}
 
 .notion-checkbox>svg {
     fill: var(--color-bg-dark-lighter) !important
