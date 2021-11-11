@@ -4,3 +4,8 @@ body {
     text-rendering: optimizeLegibility !important;
     background: var(--color-bg-dark) !important;
 }
+
+.super-content {
+    max-width: 1200px !important;
+    padding: 50px !important
+}
