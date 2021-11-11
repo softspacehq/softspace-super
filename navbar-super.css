@@ -1,4 +1,0 @@
-.super-navbar {
-    position: fixed !important;
-    animation: fadeIn var(--dur-in-mid) var(--ease-default) !important;
-}

@@ -1,0 +1,8 @@
+/*Hide all Notion toggle blocks*/
+.notion-toggle {
+    display: none;
+}
+
+.notion-collection__header {
+    display: none;
+}

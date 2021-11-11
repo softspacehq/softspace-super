@@ -5,7 +5,11 @@ body {
     background: var(--color-bg-dark) !important;
 }
 
-.super-content {
+#page-index .super-content {
     max-width: 1200px !important;
+}
+
+.super-content {
+    max-width: 900px !important;
     padding: 50px !important
 }
