@@ -12,10 +12,10 @@
     --color-brown: #ae9d82 !important;
     --color-orange: #ff9933 !important;
     --color-yellow: #ffff66 !important;
-    --color-green: #D4FF59 !important;
+    --color-green: #abff3d !important;
     --color-blue: #3399ff !important;
     --color-purple: #7d47cf !important;
-    --color-pink: #ff99cc !important;
+    --color-pink: #ffb1cf !important;
     --color-red: #ff5666 !important;
 
     --color-text-light: #F0F0F0 !important;
@@ -29,9 +29,4 @@
     /* Brand colors */
 
     --color-primary: var(--color-blue) !important;
-
-
-
-
-
 }
