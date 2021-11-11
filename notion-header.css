@@ -1,0 +1,36 @@
+/*Remove Notion header margin*/
+.notion-header {
+    margin: 0 !important;
+}
+
+/*Hide Notion header title or iconv*/
+.notion-header__title-wrapper {
+    display: none;
+}
+
+/*Style Notion header cover*/
+.notion-header__cover.has-cover {
+    position: absolute !important;
+    width: 100% !important;
+    height: 50vh !important;
+    max-height: 100vh !important;
+
+    opacity: 0.25 !important;
+    z-index: -10 !important;
+
+    animation: fadeIn ease-in var(--dur-in-mid);
+}
+
+/*Draw an image over Notion header cover*/
+/*':after' creates a pseudo element that is the last child of the selected element, in this case header cover*/
+.notion-header__cover.has-cover:after {
+    content: "";
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    z-index: 1;
+
+    background-image: var(--gradient-bg-dark);
+}
