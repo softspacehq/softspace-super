@@ -1,0 +1,39 @@
+:root {
+    --dur-in-fast: 0.2s;
+    --dur-in-mid: 1s;
+    --dur-in-slow: 2s;
+
+    --ease-default: ease-out;
+
+    --transition: all var(--dur-in-mid) var(--ease-default);
+
+    --anim-in-fast: fadein var(--dur-in-fast) var(--ease-default);
+    --anim-in-mid: fadein var(--dur-in-mid) var(--ease-default);
+    --anim-in-slow: fadein var(--dur-in-slow) var(--ease-default);
+
+    --anim-inDown-fast: fadein var(--dur-in-fast) var(--ease-default);
+    --anim-inDown-mid: fadein var(--dur-in-mid) var(--ease-default);
+    --anim-inDown-slow: fadein var(--dur-in-slow) var(--ease-default);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        top: -50px
+    }
+
+    to {
+        opacity: 1;
+        top: 0
+    }
+}

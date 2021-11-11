@@ -1,4 +1,5 @@
 /* Forces Super navbar to float on top of page content */
 .super-navbar {
     position: fixed !important;
+    animation: var(anim-in-fast);
 }

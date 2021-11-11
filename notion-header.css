@@ -5,7 +5,7 @@
 
 /*Hide Notion header title or iconv*/
 .notion-header__title-wrapper {
-    display: none;
+    display: none !important;
 }
 
 /*Style Notion header cover*/
@@ -18,13 +18,13 @@
     opacity: 0.25 !important;
     z-index: -10 !important;
 
-    animation: fadeIn 1s ease-out !important;
+    animation: var(anim-in-mid);
 }
 
 /*Draw an image over Notion header cover*/
 /*':after' creates a pseudo element that is the last child of the selected element, in this case header cover*/
 .notion-header__cover.has-cover:after {
-	content: "";
+    content: "";
     background-image: var(--gradient-bg-dark);
 
     position: absolute;

@@ -1,7 +1,0 @@
-:root {
-    --dur-in-fast: 0.2s;
-    --dur-in-mid: 0.5s;
-    --dur-in-slow: 1s;
-
-    --transition: all var(--dur-in-fast) ease-in-out !important;
-}
