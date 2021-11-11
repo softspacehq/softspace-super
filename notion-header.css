@@ -22,7 +22,7 @@
 } */
 
 /*Draw an image over Notion header cover*/
-/*':after' creates a pseudo element that is the last child of the selected element, in this case header cover*/
+/*':after' creates a pseudo element that is the last child of the selected element*/
 .notion-header__cover.has-cover:after {
     content: "";
     background-image: var(--gradient-bg-dark);
