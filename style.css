@@ -33,10 +33,7 @@ body {
 
 
 
-.notion-text__content {
-    margin: 0 !important;
-    padding: 0 !important
-}
+
 
 
 
@@ -48,31 +45,9 @@ body {
     color: var(--color-text-default-legible) !important
 }
 
-p>* {
-    line-height: 1.5 !important;
-    letter-spacing: -.2px !important
-}
 
-p>span>span>a {
-    border-bottom: 1px solid var(--color-primary) !important;
-    padding-bottom: 2px !important
-}
 
-p>span>span>a:visited {
-    color: var(--color-text-default-legible) !important
-}
 
-li a {
-    border-bottom: 1px solid var(--color-primary) !important
-}
-
-h2>span>span>a {
-    color: var(--color-primary) !important
-}
-
-p code {
-    font-size: .8em !important
-}
 
 .notion-file__icon {
     fill: var(--color-primary) !important
@@ -258,9 +233,6 @@ ol li {
 }
 
 
-
-
-
 .project-arrow {
     width: 24px !important;
     position: absolute;
@@ -270,37 +242,6 @@ ol li {
     opacity: .2;
     transition: var(--transition)
 }
-
-
-
-
-
-
-
-
-
-
-
-.notion-pill {
-    border-radius: 0 !important;
-    padding: 5px 10px;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: .9em !important;
-    letter-spacing: 1px;
-    margin: 0;
-    display: block;
-    max-width: 100% !important;
-    background: 0 0 !important;
-    padding: 0 !important;
-    opacity: .4 !important
-}
-
-
-
-
-
-
 
 
 
