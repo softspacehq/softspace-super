@@ -1,2 +1,8 @@
 /* Super.so CSS classes: https://super.so/docs/css-classes */
 /* Super.so CSS colors: https://super.so/docs/notion-colors */
+
+
+/* Forces Super navbar to float on top of page content */
+.super-navbar {
+    position: fixed !important;
+}
