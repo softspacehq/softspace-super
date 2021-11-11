@@ -9,7 +9,7 @@
 }
 
 /*Style Notion header cover*/
-.notion-header__cover.has-cover {
+/* .notion-header__cover.has-cover {
     position: absolute !important;
     width: 100vw !important;
     height: 100vh !important;
@@ -19,7 +19,7 @@
     z-index: -10 !important;
 
     animation: var(anim-in-mid);
-}
+} */
 
 /*Draw an image over Notion header cover*/
 /*':after' creates a pseudo element that is the last child of the selected element, in this case header cover*/
