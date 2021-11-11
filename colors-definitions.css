@@ -24,4 +24,26 @@
     /* Brand colors */
 
     --color-primary: var(--color-blue) !important;
+
+    /* Gradients */
+
+    /* Generated with https: //larsenwork.com/easing-gradients/#editor */
+    --gradient-bg-dark:
+        linear-gradient(to bottom,
+            hsla(var(--custprop-hsl-bg-dark), 0) 0%,
+            hsla(var(--custprop-hsl-bg-dark), 0.013) 6.7%,
+            hsla(var(--custprop-hsl-bg-dark), 0.049) 13%,
+            hsla(var(--custprop-hsl-bg-dark), 0.104) 18.9%,
+            hsla(var(--custprop-hsl-bg-dark), 0.175) 24.6%,
+            hsla(var(--custprop-hsl-bg-dark), 0.259) 30.1%,
+            hsla(var(--custprop-hsl-bg-dark), 0.352) 35.6%,
+            hsla(var(--custprop-hsl-bg-dark), 0.45) 41.2%,
+            hsla(var(--custprop-hsl-bg-dark), 0.55) 46.9%,
+            hsla(var(--custprop-hsl-bg-dark), 0.648) 52.8%,
+            hsla(var(--custprop-hsl-bg-dark), 0.741) 59.2%,
+            hsla(var(--custprop-hsl-bg-dark), 0.825) 66%,
+            hsla(var(--custprop-hsl-bg-dark), 0.896) 73.4%,
+            hsla(var(--custprop-hsl-bg-dark), 0.951) 81.4%,
+            hsla(var(--custprop-hsl-bg-dark), 0.987) 90.3%,
+            hsl(var(--custprop-hsl-bg-dark)) 100%) !important;
 }
