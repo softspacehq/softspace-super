@@ -1,0 +1,26 @@
+.date {
+    color: var(--color-text-default-legible) !important
+}
+
+token[style] {
+    color: var(--color-text-default-legible) !important
+}
+
+.token {
+    text-shadow: none !important;
+    color: var(--color-text-default-legible) !important
+}
+
+.project-arrow {
+    width: 24px !important;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 30px;
+    opacity: .2;
+    transition: var(--transition)
+}
+
+.no-click {
+    display: none !important
+}
