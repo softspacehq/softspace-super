@@ -3,6 +3,11 @@
     padding: 0 !important
 }
 
+.notion-text__content {
+    color: var(--color-text-default-legible) !important;
+    font-size: .9em
+}
+
 p>* {
     line-height: 1.5 !important;
     letter-spacing: -.2px !important
@@ -24,4 +29,50 @@ p code {
 p {
     font-size: 1.1em !important;
     margin-top: 0 !important
+}
+
+pre {
+    font-size: .9em !important;
+    background: var(--color-bg-dark-darker) !important;
+    max-width: 630px !important;
+    color: var(--color-text-default-legible) !important
+}
+
+pre code {
+    background: var(--color-bg-dark-darker) !important;
+    max-width: 630px !important;
+    color: var(--color-text-default-legible) !important
+}
+
+code {
+    white-space: pre-wrap !important;
+    background: var(--color-bg-dark-lighter) !important;
+    border-radius: 0 !important;
+    color: var(--color-text-default-legible) !important
+}
+
+code {
+    text-shadow: none !important
+}
+
+pre {
+    text-shadow: none !important
+}
+
+pre>code>span {
+    text-shadow: none !important
+}
+
+a {
+    color: var(--color-text-default-legible) !important;
+    transition: var(--transition) !important;
+    border: 0 !important
+}
+
+a:visited {
+    color: var(--color-text-default-legible) !important
+}
+
+a:hover {
+    color: var(--color-primary) !important
 }
