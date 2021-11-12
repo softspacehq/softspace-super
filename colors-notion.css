@@ -31,7 +31,7 @@
 
     /* Color of property pills */
 
-    --color-pill-default: var(--color-highlight) !important;
+    --color-pill-gray: var(--color-gray) !important;
     --color-pill-brown: var(--color-brown) !important;
     --color-pill-orange: var(--color-orange) !important;
     --color-pill-yellow: var(--color-yellow) !important;
