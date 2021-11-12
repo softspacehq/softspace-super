@@ -5,3 +5,13 @@
 .notion-collection__header {
     display: none !important;
 }
+
+.notion-collection-gallery,
+.notion-collection-list,
+.notion-collection-board {
+    border: 0 !important;
+}
+
+.notion-property__title__icon-wrapper {
+    display: none !important;
+}
