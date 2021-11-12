@@ -1,8 +1,7 @@
-/*Hide all Notion toggle blocks*/
 .notion-toggle {
-    display: none;
+    display: none !important;
 }
 
 .notion-collection__header {
-    display: none;
+    display: none !important;
 }
