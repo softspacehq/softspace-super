@@ -5,7 +5,7 @@
 
     --ease-default: ease-out;
 
-    --trans-hover: color var(--dur-in-fast) ease;
+    --trans-hover: all var(--dur-in-fast) ease;
 }
 
 @keyframes fadeIn {
