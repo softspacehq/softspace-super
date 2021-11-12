@@ -1,56 +1,56 @@
 .notion-pill {
-    font-size: 1em;
-    font-weight: 600;
-    background: none;
-    border-radius: 6px;
-    padding: 4px 6px;
+    font-size: 1em !important;
+    font-weight: 600 !important;
+    background: none !important;
+    border-radius: 6px !important;
+    padding: 4px 6px !important;
 
-    border-style: solid;
-    border-width: 0.15em;
+    border-style: solid !important;
+    border-width: 0.15em !important;
 }
 
 .pill-gray {
-    border-color: var(--color-gray);
-    color: var(--color-gray);
+    border-color: var(--color-gray) !important;
+    color: var(--color-gray) !important;
 }
 
 .pill-brown {
-    border-color: var(--color-brown);
-    color: var(--color-brown);
+    border-color: var(--color-brown) !important;
+    color: var(--color-brown) !important;
 }
 
 .pill-orange {
-    border-color: var(--color-orange);
-    color: var(--color-orange);
+    border-color: var(--color-orange) !important;
+    color: var(--color-orange) !important;
 }
 
 .pill-yellow {
-    border-color: var(--color-yellow);
-    color: var(--color-yellow);
+    border-color: var(--color-yellow) !important;
+    color: var(--color-yellow) !important;
 }
 
 .pill-green {
-    border-color: var(--color-green);
-    color: var(--color-green);
+    border-color: var(--color-green) !important;
+    color: var(--color-green) !important;
 }
 
 .pill-blue {
-    border-color: var(--color-blue);
-    color: var(--color-blue);
+    border-color: var(--color-blue) !important;
+    color: var(--color-blue) !important;
 }
 
 .pill-purple {
-    background: none;
-    border-color: var(--color-purple);
-    color: var(--color-purple);
+    background: none !important;
+    border-color: var(--color-purple) !important;
+    color: var(--color-purple) !important;
 }
 
 .pill-pink {
-    border-color: var(--color-pink);
-    color: var(--color-pink);
+    border-color: var(--color-pink) !important;
+    color: var(--color-pink) !important;
 }
 
 .pill-red {
-    border-color: var(--color-red);
-    color: var(--color-red);
+    border-color: var(--color-red) !important;
+    color: var(--color-red) !important;
 }
