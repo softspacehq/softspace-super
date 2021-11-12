@@ -5,11 +5,13 @@ body {
     background: var(--color-bg-dark) !important;
 }
 
-/* #page-index .super-content {
-    max-width: 1200px !important;
+.notion-root>div,
+.notion-column>div {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
 }
 
 .super-content {
-    max-width: 900px !important;
-    padding: 50px !important
-} */
+    max-width: 1200px !important;
+    padding: 20px !important
+}
