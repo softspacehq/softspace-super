@@ -18,10 +18,20 @@
     }
 }
 
+@keyframes fadeInHeaderCover {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 0.25
+    }
+}
+
 @keyframes fadeInDown {
     from {
         opacity: 0;
-        top: -50px
+        top: -25px
     }
 
     to {

@@ -22,7 +22,7 @@
     opacity: 0.25 !important;
     z-index: -10 !important;
 
-    animation: fadeIn var(--dur-in-slow) var(--ease-default) !important;
+    animation: fadeInHeaderCover var(--dur-in-slow) var(--ease-default) !important;
 }
 
 /*Draw an image over Notion header cover*/
