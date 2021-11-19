@@ -8,6 +8,21 @@
     --trans-hover: all var(--dur-in-fast) ease;
 }
 
+.notion-root>* {
+    animation-name: fadeIn-Delayed;
+    animation-duration: 1.5s;
+}
+
+.notion-root>h1:first-of-type {
+    animation-name: fadeIn;
+    animation-duration: var(--dur-in-mid);
+}
+
+#page-index .notion-root>h1:first-of-type {
+    animation-name: fadeInDown;
+    animation-duration: var(--dur-in-slow);
+}
+
 @keyframes fadeIn-Delayed {
     0% {
         opacity: 0

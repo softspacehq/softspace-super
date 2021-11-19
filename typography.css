@@ -10,15 +10,12 @@
     letter-spacing: -1.5px !important;
     max-width: 900px !important;
 
-    animation: fadeIn var(--dur-in-mid) !important;
-
     padding: 0px 0px 0px 0px !important;
     margin: 0px 0px 1.2em 0px !important;
 }
 
 #page-index .notion-root>h1:first-of-type {
     font-size: 3.5em !important;
-    animation: fadeInDown var(--dur-in-slow) !important;
 }
 
 /* Larger body text on special pages */
