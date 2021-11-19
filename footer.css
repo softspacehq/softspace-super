@@ -1,8 +1,8 @@
-/* These are stylings applied to last elements and specific IDs to create a footer */
+/* Styles applied to specific IDs to make a footer */
 
 :root {
-    --column-spacing: 0px;
-    --font-size-footer: 14px;
+    --column-spacing: 0px !important;
+    --font-size-footer: 14px !important;
 }
 
 /*Copyright text block*/
@@ -16,10 +16,10 @@
 /*Footer callout block*/
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 {
-    background: #24272b;
-    border-width: 0px;
-    margin: 0px;
-    padding: 30px;
+    background: #24272b !important;
+    border-width: 0px !important;
+    margin: 0px !important;
+    padding: 30px !important;
 }
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 .notion-callout__icon {
@@ -55,5 +55,5 @@
 }
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 a {
-    border-style: none;
+    border-style: none !important;
 }
