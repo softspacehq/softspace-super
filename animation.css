@@ -1,6 +1,7 @@
 :root {
     --dur-in-fast: 0.2s;
     --dur-in-mid: 1s;
+    --dur-in-mid-delayed: 1.25s;
     --dur-in-slow: 2s;
 
     --ease-default: ease-out;
@@ -10,7 +11,7 @@
 
 .notion-root>* {
     animation-name: fadeIn-Delayed;
-    animation-duration: 1.5s;
+    animation-duration: var(--dur-in-mid-delayed);
 }
 
 .notion-root>h1:first-of-type {
