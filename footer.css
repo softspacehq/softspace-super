@@ -1,0 +1,37 @@
+/* These are stylings applied to last elements and specific IDs to create a footer */
+
+/*Callouts*/
+
+.notion-callout__icon {
+    display: none !important;
+}
+
+
+/*Typography*/
+
+
+
+
+
+
+
+.notion-callout p {
+    font-size: 15px !important;
+    /*border-width: 0px !important;*/
+}
+
+.notion-callout {
+    /*font-size: 16px !important;*/
+    border-width: 0px !important;
+}
+
+
+.notion-callout__content {
+    width: 100% !important;
+    max-width: 1000px !important;
+}
+
+
+#block-bc383c1b040646898241c66ec8c3490c>p {
+    font-size: 15px !important;
+}

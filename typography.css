@@ -2,25 +2,35 @@
     font-size: 16px !important;
 }
 
+/* Special case of first H1 element in Notion Root */
+
 .notion-root>h1:first-of-type {
-    font-size: 3.5em !important;
+    font-size: 2.8em !important;
     font-weight: 300 !important;
     letter-spacing: -1.5px !important;
     max-width: 900px !important;
 
-    animation: fadeInDown var(--dur-in-slow) !important;
+    animation: fadeIn var(--dur-in-mid) !important;
 
     padding: 0px 0px 0px 0px !important;
     margin: 0px 0px 1.2em 0px !important;
 }
 
 #page-index .notion-root>h1:first-of-type {
-    padding: 0px 0px 0px 0px !important;
-    margin: 0px 0px 10vh 0px !important;
-    height: 40vh;
+    font-size: 3.5em !important;
+    animation: fadeInDown var(--dur-in-slow) !important;
 }
 
+/* Larger body text on special pages */
 
+#page-index p,
+#page-about p,
+#page-research p {
+    font-size: 22px;
+    max-width: 600px;
+}
+
+/* General heading elements */
 
 h1 {
     font-size: 2.6em !important;
@@ -35,14 +45,14 @@ h2 {
 }
 
 h3 {
-    font-size: 1em !important;
-    font-weight: 700 !important;
-    letter-spacing: 0.5px !important;
+    font-size: 1.2em !important;
+    font-weight: 500 !important;
+    letter-spacing: -0.15px !important;
 
-    opacity: 0.7 !important;
-    text-transform: uppercase !important;
+    opacity: 1 !important;
 }
 
+/* Use dark text color with light backgrounds */
 .bg-gray,
 .bg-green,
 .bg-orange,
