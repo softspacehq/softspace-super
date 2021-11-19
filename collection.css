@@ -1,0 +1,161 @@
+/*Collections / Galleries*/
+
+.notion-collection-gallery {
+    padding: 0 !important;
+    /*display: flex !important;*/
+    /*flex-direction: column !important;*/
+    /*    grid-gap: 50px !important;*/
+}
+
+/*.notion-collection-card {*/
+/*  background: none !important;*/
+/*  width: 500px !important;*/
+/*}*/
+
+.notion-collection-card {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    position: relative !important;
+    /*width: 100% !important;*/
+    background: 0 0 !important
+}
+
+.notion-collection-card--cover {
+    border-radius: 0px !important;
+}
+
+.notion-property__title {
+    font-size: 1em !important;
+}
+
+.notion-collection-card__cover,
+.notion-collection-card__cover div,
+.notion-collection-card__cover img {
+    /*max-height: 700px !important;*/
+    height: 300px !important;
+    border-radius: 0 !important;
+    margin-bottom: 0.1em !important;
+    border: 0 !important;
+    transition: var(--transition) !important
+}
+
+.notion-collection-card__cover.large,
+.notion-collection-card__cover.large img,
+.notion-collection-card__cover.large>span,
+.notion-collection-card__cover.medium,
+.notion-collection-card__cover.medium img,
+.notion-collection-card__cover.medium>span {
+    max-height: 100% !important
+}
+
+
+
+/*.notion-collection-gallery {*/
+/*    border: 0 !important;*/
+/*    grid-gap: 0 !important;*/
+/*    border: none !important;*/
+/*    padding: 0 !important*/
+/*}*/
+
+/*.notion-collection-card {*/
+/*    border-radius: 0 !important;*/
+/*    box-shadow: none !important;*/
+/*    position: relative !important;*/
+/*    width: 100% !important;*/
+/*    background: 0 0 !important*/
+/*}*/
+
+/*.notion-collection-card__cover,*/
+/*.notion-collection-card__cover div,*/
+/*.notion-collection-card__cover img {*/
+/*    max-height: 700px !important;*/
+/*    height: 700px !important;*/
+/*    border-radius: 0 !important;*/
+/*    margin-bottom: 5px !important;*/
+/*    border: 0 !important;*/
+/*    transition: var(--transition) !important*/
+/*}*/
+
+/*.notion-collection-card:hover .notion-collection-card__cover {*/
+/*    background: 0 0 !important;*/
+/*    opacity: .4 !important*/
+/*}*/
+
+/*.notion-collection-card:hover .notion-property__title {*/
+/*    color: var(--color-primary) !important*/
+/*}*/
+
+/*.notion-collection-card:hover .project-arrow {*/
+/*    opacity: 1 !important*/
+/*}*/
+
+/*.notion-collection-card__anchor {*/
+/*    height: 100% !important*/
+/*}*/
+
+/*.notion-collection-gallery .large {*/
+/*    margin-top: 0 !important*/
+/*}*/
+
+/*.notion-collection-card {*/
+/*    margin-bottom: 140px !important*/
+/*}*/
+
+/*.large>.notion-collection-card:last-child {*/
+/*    margin-bottom: 10px !important*/
+/*}*/
+
+/*.medium>.notion-collection-card {*/
+/*    transition: var(--transition) !important;*/
+/*    margin-bottom: 40px !important*/
+/*}*/
+
+/*.notion-collection-card .notion-property__title {*/
+/*    padding: 10px 0 0 0 !important*/
+/*}*/
+
+/*.notion-collection-card__content {*/
+/*    display: flex !important;*/
+/*    align-items: center !important;*/
+/*    -webkit-padding-start: 0 !important;*/
+/*    padding-inline-start: 0 !important*/
+/*}*/
+
+/*.notion-collection-card__property:nth-child(2) {*/
+/*    margin-left: 15px !important*/
+/*}*/
+
+/*.notion-collection-card .gallery {*/
+/*    display: flex !important;*/
+/*    flex-direction: row !important*/
+/*}*/
+
+/*.notion-collection-card__content {*/
+/*    padding: 0 !important*/
+/*}*/
+
+/*.medium>.notion-collection-card>.notion-collection-card__content>.notion-collection-card__property>.notion-property>span>span>span {*/
+/*    color: var(--color-text-default) !important;*/
+/*    font-size: .9em !important;*/
+/*    text-transform: uppercase;*/
+/*    letter-spacing: 1px;*/
+/*    opacity: .4;*/
+/*    margin: 0 !important;*/
+/*    padding: 0 !important;*/
+/*    line-height: 26px !important*/
+/*}*/
+
+/*.notion-collection-card.gallery .notion-property__title .notion-semantic-string {*/
+/*    white-space: normal !important;*/
+/*    overflow: auto !important;*/
+/*    text-overflow: unset !important*/
+/*}*/
+
+/*.notion-collection-card__cover.large,*/
+/*.notion-collection-card__cover.large img,*/
+/*.notion-collection-card__cover.large>span,*/
+/*.notion-collection-card__cover.medium,*/
+/*.notion-collection-card__cover.medium img,*/
+/*.notion-collection-card__cover.medium>span {*/
+/*    max-height: 100% !important*/
+/*}*/
