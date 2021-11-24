@@ -5,10 +5,15 @@
     color: #F0F0F0;
 }
 
+.center {
+    margin: auto;
+}
+
 #mc_embed_signup {
     background: transparent;
     clear: left;
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
 }
 
 #mc_embed_signup form {
@@ -27,11 +32,9 @@
 
 #mc_embed_signup input {
     color: white;
-    /* 	text-align: center; */
+    font-size: 1em;
     background: transparent;
     border: 2px solid #3399ff;
-    /*     -webkit-border-radius: 2px;
-    -moz-border-radius: 2px; */
     border-radius: 2px;
 }
 
@@ -43,9 +46,9 @@
     -webkit-appearance: radio;
 }
 
-/* #mc_embed_signup input:focus {
-    border-color: #333;
-} */
+#mc_embed_signup input:focus {
+    /*     background: black; */
+}
 
 #mc_embed_signup .button {
     clear: both;
@@ -56,10 +59,10 @@
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 500;
-    height: 36px;
-    line-height: 36px;
+    height: 2.7em;
+    line-height: 1.2em;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -70,7 +73,7 @@
 }
 
 #mc_embed_signup .button:hover {
-    background-color: #777;
+    background-color: #0080ff;
 }
 
 #mc_embed_signup .small-meta {
@@ -247,18 +250,13 @@
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
     display: inline-block;
-    margin: 2px 0 1em 0;
-    padding: 5px 10px;
-    background-color: rgba(255, 255, 255, 0.85);
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    font-size: 14px;
-    font-weight: normal;
-    z-index: 1;
-    color: #e85c41;
+    margin: 8px;
+    padding: 0;
+    background-color: transparent;
+    font-size: 0.8em;
+    color: #eb344f;
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-    border: 2px solid #e85c41;
+    border: 2px solid #eb344f;
 }
