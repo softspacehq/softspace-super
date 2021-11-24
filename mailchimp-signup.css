@@ -1,23 +1,33 @@
-/* Global values */
+/* Global colors */
 
 :root {
-    background: #1e1f24;
+    --color-bg-dark: #1e1f24;
+    --color-text-light: #F0F0F0;
+    --color-text-gray: #F0F0F0;
+    --color-primary: #3399ff;
+    --color-primary-dark: #0080ff;
+    --color-error: #eb344f;
+    --color-success: #00cc69;
+
+    background: var(--color-bg-dark);
+    color: var(--color-text-light);
+}
+
+/* Global fonts */
+
+:root {
     font-family: 'Inter', san-serif;
     font-size: 16px;
-    color: #F0F0F0;
 }
 
-/* Parent div and form blocks */
-
-.center {
-    margin: auto;
-}
+/* Everything should live in one div > form */
 
 #mc_embed_signup {
     background: transparent;
     clear: left;
     width: 100%;
     max-width: 350px;
+    margin: auto;
 }
 
 #mc_embed_signup form {
@@ -46,7 +56,7 @@
     font-size: 1em;
     font-weight: 200;
     background: transparent;
-    border: 2px solid #3399ff;
+    border: 2px solid var(--color-primary);
     border-radius: 2px;
     display: block;
     width: 100%;
@@ -65,15 +75,15 @@
 
 #mc_embed_signup .button {
     clear: both;
-    background-color: #3399ff;
+    background-color: var(--color-primary);
     border: 0 none;
     border-radius: 2px;
     transition: all 0.23s ease-in-out 0s;
-    color: #FFFFFF;
+    color: #e3f4ff;
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 400;
     height: 2.7em;
     line-height: 1.2em;
     margin: 0;
@@ -86,13 +96,13 @@
 }
 
 #mc_embed_signup .button:hover {
-    background-color: #0080ff;
+    background-color: var(--color-primary-dark);
 }
 
 /* Responses */
 
 #mc_embed_signup div#mce-responses {
-    color: #ababab;
+    color: var(--color-text-gray);
     font-size: 0.9em;
     margin: 0;
     padding: 0 1em;
@@ -105,11 +115,11 @@
 
 #mc_embed_signup div#mce-responses a {
     transition: all 0.23s ease-in-out 0s;
-    color: #ababab;
+    color: var(--color-text-gray);
 }
 
 #mc_embed_signup div#mce-responses a:hover {
-    color: white;
+    color: var(--color-text-light);
 }
 
 /* Response: Error */
@@ -121,7 +131,7 @@
 /* Response: Success */
 
 #mc_embed_signup #mce-success-response {
-    color: #00cc69;
+    color: var(--color-success);
     display: none;
 }
 
@@ -133,9 +143,9 @@
     padding: 0;
     background-color: transparent;
     font-size: 0.8em;
-    color: #eb344f;
+    color: var(--color-error);
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-    border: 2px solid #eb344f;
+    border: 2px solid var(--color-error);
 }
