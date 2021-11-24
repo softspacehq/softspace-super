@@ -1,9 +1,13 @@
+/* Global values */
+
 :root {
     background: #1e1f24;
     font-family: 'Inter', san-serif;
     font-size: 16px;
     color: #F0F0F0;
 }
+
+/* Parent div and form blocks */
 
 .center {
     margin: auto;
@@ -20,15 +24,9 @@
     display: block;
     position: relative;
     text-align: left;
-    /*     padding: 10px 0 10px 3%; */
 }
 
-#mc_embed_signup h2 {
-    font-weight: bold;
-    padding: 0;
-    margin: 15px 0;
-    font-size: 1.4em;
-}
+/* Inputs */
 
 #mc_embed_signup input {
     color: white;
@@ -38,17 +36,34 @@
     border-radius: 2px;
 }
 
-#mc_embed_signup input[type=checkbox] {
-    -webkit-appearance: checkbox;
+/* Email input field */
+
+#mc_embed_signup .mc-field-group {
+    clear: left;
+    position: relative;
+    /*     padding-bottom: 10px;  */
 }
 
-#mc_embed_signup input[type=radio] {
-    -webkit-appearance: radio;
+#mc_embed_signup .mc-field-group label {
+    display: block;
+    margin-bottom: 3px;
 }
 
-#mc_embed_signup input:focus {
-    /*     background: black; */
+#mc_embed_signup .mc-field-group input {
+    display: block;
+    width: 100%;
+    padding: 0.75em 0;
+    text-indent: 0.85em;
 }
+
+#mc_embed_signup .mc-field-group select {
+    display: inline-block;
+    width: 99%;
+    padding: 5px 0;
+    margin-bottom: 2px;
+}
+
+/* Submit button */
 
 #mc_embed_signup .button {
     clear: both;
@@ -76,18 +91,101 @@
     background-color: #0080ff;
 }
 
+/* Responses */
+
+#mc_embed_signup div#mce-responses {
+    color: #ababab;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0 1em;
+    min-height: 10px;
+}
+
+#mc_embed_signup div.response {
+    margin: 1.5em 0;
+}
+
+#mc_embed_signup div#mce-responses a {
+    transition: all 0.23s ease-in-out 0s;
+    color: #ababab;
+}
+
+#mc_embed_signup div#mce-responses a:hover {
+    color: white;
+}
+
+/* Response: Error */
+
+#mc_embed_signup #mce-error-response {
+    display: none;
+}
+
+/* Response: Success */
+
+#mc_embed_signup #mce-success-response {
+    color: #00cc69;
+    display: none;
+}
+
+
+/* Inline error */
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    display: inline-block;
+    margin: 8px;
+    padding: 0;
+    background-color: transparent;
+    font-size: 0.8em;
+    color: #eb344f;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+    border: 2px solid #eb344f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TODO: Organize */
+
+
+#mc_embed_signup h2 {
+    font-weight: bold;
+    padding: 0;
+    margin: 15px 0;
+    font-size: 1.4em;
+}
+
+
+
+#mc_embed_signup input[type=checkbox] {
+    -webkit-appearance: checkbox;
+}
+
+#mc_embed_signup input[type=radio] {
+    -webkit-appearance: radio;
+}
+
+
+
+
+
 #mc_embed_signup .small-meta {
     font-size: 11px;
 }
 
 #mc_embed_signup .nowrap {
     white-space: nowrap;
-}
-
-#mc_embed_signup .mc-field-group {
-    clear: left;
-    position: relative;
-    padding-bottom: 10px;
 }
 
 #mc_embed_signup .size1of2 {
@@ -101,25 +199,6 @@
 * html #mc_embed_signup .size1of2 {
     margin-right: 2%;
     /* Fix for IE6 double margins. */
-}
-
-#mc_embed_signup .mc-field-group label {
-    display: block;
-    margin-bottom: 3px;
-}
-
-#mc_embed_signup .mc-field-group input {
-    display: block;
-    width: 100%;
-    padding: 10px 0;
-    text-indent: 10px;
-}
-
-#mc_embed_signup .mc-field-group select {
-    display: inline-block;
-    width: 99%;
-    padding: 5px 0;
-    margin-bottom: 2px;
 }
 
 #mc_embed_signup .datefield,
@@ -192,34 +271,11 @@
     border: none;
 }
 
-#mc_embed_signup div#mce-responses {
-    float: left;
-    top: -1.4em;
-    padding: 0em .5em 0em .5em;
-    overflow: hidden;
-    width: 90%;
-    margin: 0 5%;
-    clear: both;
-}
 
-#mc_embed_signup div.response {
-    margin: 1em 0;
-    padding: 1em .5em .5em 0;
-    font-weight: bold;
-    float: left;
-    top: -1.5em;
-    z-index: 1;
-    width: 80%;
-}
 
-#mc_embed_signup #mce-error-response {
-    display: none;
-}
 
-#mc_embed_signup #mce-success-response {
-    color: #529214;
-    display: none;
-}
+
+
 
 #mc_embed_signup label.error {
     display: block;
@@ -246,17 +302,4 @@
     border: 1px solid #ccc;
     margin-right: .5em;
     font-weight: bold;
-}
-
-#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
-    display: inline-block;
-    margin: 8px;
-    padding: 0;
-    background-color: transparent;
-    font-size: 0.8em;
-    color: #eb344f;
-}
-
-#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-    border: 2px solid #eb344f;
 }
