@@ -60,9 +60,10 @@
 /* Form description */
 
 .description {
-    color: var(--color-text);
+    color: white;
+    /* color: var(--color-text); */
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /* Email input field */
