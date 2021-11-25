@@ -4,6 +4,7 @@
     --color-bg-dark: #1e1f24;
     --color-text-light: #F0F0F0;
     --color-text-gray: #ababab;
+    --color-text-dark: #202126;
     --color-input-field: #2f313b;
     --color-primary: #3399ff;
     --color-primary-dark: #0080ff;
@@ -12,6 +13,11 @@
 
     background: var(--color-bg-dark);
     color: var(--color-text-light);
+}
+
+::selection {
+    background: var(--color-primary);
+    color: var(--color-text-dark);
 }
 
 /* Global fonts */
@@ -37,7 +43,7 @@
     background: transparent;
     clear: left;
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     margin: auto;
 }
 
@@ -55,7 +61,7 @@
 
 .description {
     color: var(--color-text);
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 300;
 }
 
