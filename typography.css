@@ -42,7 +42,7 @@ h2 {
 h3 {
     font-size: 1.25em !important;
     font-weight: 600 !important;
-    /* opacity: 1 !important; */
+    color: var(--color-text-gray) !important;
 }
 
 /* Use dark text color with light backgrounds */

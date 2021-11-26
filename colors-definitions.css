@@ -16,6 +16,7 @@
 
     --color-text-light: #F0F0F0 !important;
     --color-text-light-legible: #cccccc !important;
+    --color-text-gray: #ababab !important;
     --color-text-dark: #202126 !important;
 
     --color-bg-dark: hsl(var(--custprop-hsl-bg-dark)) !important;
