@@ -6,7 +6,7 @@
 
 .notion-root>h1:first-of-type {
     font-size: 2.8em !important;
-    font-weight: 300 !important;
+    font-weight: 400 !important;
     letter-spacing: -1.5px !important;
     max-width: 900px !important;
 
@@ -16,6 +16,7 @@
 
 #page-index .notion-root>h1:first-of-type {
     font-size: 3.5em !important;
+    height: 50vh !important;
 }
 
 /* Larger body text on special pages */
