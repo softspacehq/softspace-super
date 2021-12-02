@@ -7,14 +7,14 @@
 
     opacity: 0%;
 
-    animation-name: mymove;
+    animation-name: arrow-bounce;
     animation-delay: 0.5s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
 
-@keyframes mymove {
+@keyframes arrow-bounce {
     0% {
         opacity: 50%;
         /*top: 80vh;*/
