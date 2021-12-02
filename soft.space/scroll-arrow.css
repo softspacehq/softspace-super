@@ -1,0 +1,35 @@
+#block-605a9fec43f44a5fb2cefcc339abf331 p {
+    position: absolute;
+    top: 85vh;
+
+    font-size: 50px !important;
+    font-weight: 300;
+
+    opacity: 0%;
+
+    animation-name: mymove;
+    animation-delay: 0.5s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+    0% {
+        opacity: 50%;
+        /*top: 80vh;*/
+        padding-top: 0px;
+    }
+
+    50% {
+        opacity: 100%;
+        /*top: 82vh;*/
+        padding-top: 3vh;
+    }
+
+    100% {
+        opacity: 50%;
+        /*top: 80vh;*/
+        padding-top: 0px;
+    }
+}
