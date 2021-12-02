@@ -3,7 +3,7 @@
 :root {
     /* --column-spacing: 0px !important; */
     --font-size-footer: 14px !important;
-    --color-footer-bg: #24272b !important;
+    --color-footer-divider: #424242 !important;
 }
 
 /*Copyright text block*/
@@ -17,10 +17,16 @@
 /*Footer callout block*/
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 {
-    background: var(--color-footer-bg) !important;
-    border-width: 0px !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-radius: 0 !important;
+    border-color: #424242 !important;
+    background: none !important;
+    border-width: 1px !important;
     margin: 0px !important;
     padding: 30px !important;
+
 }
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 .notion-callout__icon {
@@ -56,5 +62,11 @@
 }
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 a {
+    opacity: 0.6 !important;
     border-style: none !important;
+}
+
+#block-8abf4236ccce4037a44a9f8b38f626f2 a:hover {
+    opacity: 1 !important;
+    color: white !important;
 }
