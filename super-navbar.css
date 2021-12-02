@@ -3,6 +3,10 @@
     animation: fadeIn var(--dur-in-mid) var(--ease-default) !important;
 }
 
+.super-navbar__item {
+    font-size: 16px !important;
+}
+
 .super-navbar__logo-text,
 .super-navbar__item {
     font-weight: 400 !important;
