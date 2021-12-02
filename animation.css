@@ -6,7 +6,7 @@
 
     --ease-default: ease-out;
 
-    --trans-hover: all var(--dur-in-fast) ease;
+    --transition-hover: all 0.1s ease-in;
 }
 
 .notion-root>* {

@@ -1,0 +1,178 @@
+/* Global colors */
+
+:root {
+    --color-bg-dark: #1e1f24;
+    --color-text-light: #F0F0F0;
+    --color-text-gray: #ababab;
+    --color-text-dark: #202126;
+    --color-input-field: #2f313b;
+    --color-primary: #3399ff;
+    --color-primary-dark: #0080ff;
+    --color-error: #eb344f;
+    --color-success: #00cc69;
+
+    background: var(--color-bg-dark);
+    color: var(--color-text-light);
+}
+
+::selection {
+    background: var(--color-primary);
+    color: var(--color-text-dark);
+}
+
+/* Global fonts */
+
+:root {
+    font-size: 16px;
+}
+
+/* Global misc */
+
+:root {
+    --radii: 3px;
+    --transition: all 0.23s ease-in-out 0s;
+}
+
+/* Everything should live in one div > form */
+
+#mc_embed_signup * {
+    font-family: 'Inter', sans-serif;
+}
+
+#mc_embed_signup {
+    background: transparent;
+    clear: left;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+#mc_embed_signup form {
+    display: block;
+    position: relative;
+    text-align: left;
+}
+
+#mc_embed_signup .clear {
+    clear: both;
+}
+
+/* Form description */
+
+.description {
+    color: var(--color-text);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Email input field */
+
+#mc_embed_signup .mc-field-group {
+    clear: left;
+    position: relative;
+}
+
+#mc_embed_signup .mc-field-group label {
+    display: none;
+}
+
+#mc_embed_signup .mc-field-group input {
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    background: var(--color-input-field);
+    border: none;
+    border-radius: var(--radii);
+    display: block;
+    width: 100%;
+    padding: 0.75em 0;
+    text-indent: 0.85em;
+}
+
+#mc_embed_signup .mc-field-group select {
+    display: inline-block;
+    width: 99%;
+    padding: 5px 0;
+    margin-bottom: 2px;
+}
+
+/* Submit button */
+
+#mc_embed_signup .button {
+    clear: both;
+    background-color: var(--color-primary);
+    border: 0 none;
+    border-radius: var(--radii);
+    transition: var(--transition);
+    color: #e3f4ff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    height: 2.6em;
+    line-height: 1.2em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100%;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: var(--color-primary-dark);
+}
+
+/* Responses */
+
+#mc_embed_signup div#mce-responses {
+    color: var(--color-text-gray);
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0 1em;
+    min-height: 10px;
+}
+
+#mc_embed_signup div.response {
+    margin: 1.5em 0;
+    color: var(--color-text-gray);
+}
+
+#mc_embed_signup div#mce-responses a {
+    transition: all 0.23s ease-in-out 0s;
+    color: var(--color-text-gray);
+}
+
+#mc_embed_signup div#mce-responses a:hover {
+    color: var(--color-text-light);
+}
+
+/* Response: Error */
+
+#mc_embed_signup #mce-error-response {
+    display: none;
+}
+
+/* Response: Success */
+
+#mc_embed_signup #mce-success-response {
+    color: var(--color-success);
+    display: none;
+}
+
+/* Inline error */
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    display: inline-block;
+    margin: 8px;
+    padding: 0;
+    background-color: transparent;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: var(--color-error);
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+    border: 2px solid var(--color-error);
+}

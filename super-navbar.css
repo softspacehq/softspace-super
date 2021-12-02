@@ -14,7 +14,7 @@
 
 .super-navbar__logo,
 .super-navbar__item {
-    transition: var(--trans-hover) !important;
+    transition: var(--transition-hover) !important;
 }
 
 .super-navbar__logo:hover,
