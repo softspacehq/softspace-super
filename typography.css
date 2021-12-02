@@ -5,7 +5,7 @@
 /* Special case of first H1 element in notion-root div */
 .notion-root>h1:first-of-type {
     font-size: 45px !important;
-    max-width: 900px !important;
+    max-width: var(--width-super-mobile) !important;
     padding: 0px 0px 0px 0px !important;
     margin: 0px 0px 1.2em 0px !important;
 }
@@ -35,7 +35,7 @@
 /* General heading elements */
 
 p {
-    max-width: 900px !important;
+    max-width: var(--width-super-mobile) !important;
 }
 
 h1 {

@@ -12,6 +12,6 @@ body {
 }
 
 .super-content {
-    max-width: 1200px !important;
+    max-width: var(--width-super-content) !important;
     padding: 20px !important
 }
