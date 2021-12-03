@@ -1,0 +1,21 @@
+@media screen and (max-width: 860px) {
+
+    #block-605a9fec43f44a5fb2cefcc339abf331 {
+        display: none !important;
+    }
+
+
+    /* Special case of first H1 element in notion-root div */
+    .notion-root>h1:first-of-type {
+        font-size: 45px !important;
+        /*max-width: var(--width-super-mobile) !important;*/
+        /*padding: 0px 0px 0px 0px !important;*/
+        /*margin: 0px 0px 1.2em 0px !important;*/
+    }
+
+    /* Extra-special case of first H1 element in homepage */
+    #page-index .notion-root>h1:first-of-type {
+        font-size: 6.5vw !important;
+        height: auto !important;
+    }
+}

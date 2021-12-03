@@ -1,10 +1,12 @@
 :root {
     font-size: 17px !important;
+
+    --font-size-intro: 22px;
 }
 
 /* Special case of first H1 element in notion-root div */
 .notion-root>h1:first-of-type {
-    font-size: 45px !important;
+    font-size: 2.65rem !important;
     max-width: var(--width-super-mobile) !important;
     padding: 0px 0px 0px 0px !important;
     margin: 0px 0px 1.2em 0px !important;
@@ -12,7 +14,7 @@
 
 /* Extra-special case of first H1 element in homepage */
 #page-index .notion-root>h1:first-of-type {
-    font-size: 56px !important;
+    font-size: 3.3rem !important;
     height: 50vh !important;
 }
 
@@ -28,30 +30,26 @@
 /*legacy*/
 #block-17a55128e6fe4b42af105c55d1597f8d p,
 #block-5684a2ae2d6042e19f75a86bbaaec8a2 p {
-    font-size: 22px;
+    font-size: var(--font-size-intro) !important;
     max-width: 600px !important;
 }
 
 /* General heading elements */
 
-p {
-    max-width: var(--width-super-mobile) !important;
-}
-
 h1 {
-    font-size: 2.6em !important;
+    font-size: 2.6rem !important;
     font-weight: 400 !important;
     letter-spacing: -1.5px !important;
 }
 
 h2 {
-    font-size: 1.85em !important;
+    font-size: 1.85rem !important;
     font-weight: 500 !important;
     letter-spacing: -0.2px !important;
 }
 
 h3 {
-    font-size: 0.9em !important;
+    font-size: 0.9rem !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
     font-weight: 600 !important;

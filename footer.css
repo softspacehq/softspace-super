@@ -1,17 +1,13 @@
 /* Styles applied to specific IDs to make a footer */
 
 :root {
-    /* --column-spacing: 0px !important; */
-    --font-size-footer: 14px !important;
+    --font-size-footer: 0.825rem !important;
     --color-footer-divider: #424242 !important;
 }
 
 /*Copyright text block*/
 #block-139fde9a1f8a4f89a4536aed5d084307>p {
-    font-size: 14px !important;
-    /*text-align: center;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
+    font-size: var(--font-size-footer) !important;
 }
 
 /*Footer callout block*/
