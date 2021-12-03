@@ -5,6 +5,7 @@
 
     :root {
         /*--font-size-intro: 20px;*/
+        /*--font-size-first-h1-index: 6.5vw !important;*/
     }
 
     /* Hide the 'scroll down' arrow */
@@ -12,12 +13,10 @@
         display: none !important;
     }
 
-
-    /* Extra-special case of first H1 element in homepage */
+    .notion-root>h1:first-of-type,
     #page-index .notion-root>h1:first-of-type {
-        /* font-size: 6.5vw !important; */
-
-        /* Allow following elements to fit against */
+        font-size: 6.4vw !important;
+        font-weight: 500 !important;
         height: auto !important;
     }
 
@@ -25,40 +24,15 @@
 
 }
 
-
-/* Standard mobile screen */
 @media screen and (max-width: 480px) {
-
-
-
 
     :root {
         font-size: 16px !important;
-        --font-size-intro: 1.2rem !important;
-        --font-weight-intro: 500 !important;
     }
 
-    /*#block-605a9fec43f44a5fb2cefcc339abf331 {*/
-    /*    display: none !important;*/
-    /*}*/
-
-    /* Special case of first H1 element in notion-root div */
-    .notion-root>h1:first-of-type {
-        letter-spacing: -0.0125rem !important;
-        font-weight: 500 !important;
-        font-size: 1.75rem !important;
-        height: auto !important;
-    }
-
-    /* Extra-special case of first H1 element in homepage */
+    .notion-root>h1:first-of-type,
     #page-index .notion-root>h1:first-of-type {
-        letter-spacing: -0.0125rem !important;
-        font-weight: 500 !important;
-        font-size: 1.75rem !important;
-        height: auto !important;
+        font-size: 28px !important;
+        letter-spacing: -0.02em !important;
     }
-
-
-
-
 }

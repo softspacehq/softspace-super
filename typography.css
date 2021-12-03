@@ -3,7 +3,7 @@
 }
 
 .notion-semantic-string {
-    line-height: 1.425;
+    line-height: 1.425 !important;
 }
 
 /* Heading elements */
