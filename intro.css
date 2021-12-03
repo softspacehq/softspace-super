@@ -1,12 +1,12 @@
 /* Specify font-size in px for precise control over line breaks */
 
 :root {
-    --font-size-first-h1: 45px;
-    --font-size-first-h1-index: 56px;
+    --font-size-first-h1: 42px;
+    --font-size-first-h1-index: 55px;
 
     --font-weight-first-h1: 400;
 
-    --max-width-first-h1: var(--width-super-mobile);
+    --max-width-first-h1: 800px;
 }
 
 /* Special case of first H1 element in notion-root div */
@@ -31,6 +31,8 @@
 
     --font-weight-intro-p: 400;
 
+    --line-height-intro-p: 1.4;
+
     --max-width-intro-p: 600px;
 }
 
@@ -46,7 +48,7 @@
 /*legacy*/
 #block-17a55128e6fe4b42af105c55d1597f8d p,
 #block-5684a2ae2d6042e19f75a86bbaaec8a2 p {
-    font-size: var(--font-size-intro-p);
-    font-weight: var(--font-weight-intro-p);
-    max-width: var(--max-width-intro-p);
+    font-size: var(--font-size-intro-p) !important;
+    font-weight: var(--font-weight-intro-p) !important;
+    max-width: var(--max-width-intro-p) !important;
 }
