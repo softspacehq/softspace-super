@@ -11,13 +11,13 @@
 h1 {
     font-size: 2.6rem !important;
     font-weight: 400 !important;
-    letter-spacing: -1.5px !important;
+    letter-spacing: -0.034em !important;
 }
 
 h2 {
     font-size: 1.85rem !important;
     font-weight: 500 !important;
-    letter-spacing: -0.2px !important;
+    letter-spacing: -0.006em !important;
 }
 
 h3 {

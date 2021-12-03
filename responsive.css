@@ -1,9 +1,13 @@
+/* Super.so mobile breakpoint */
 @media screen and (max-width: 860px) {
+
+
 
     :root {
         /*--font-size-intro: 20px;*/
     }
 
+    /* Hide the 'scroll down' arrow */
     #block-605a9fec43f44a5fb2cefcc339abf331 {
         display: none !important;
     }
@@ -11,14 +15,21 @@
 
     /* Extra-special case of first H1 element in homepage */
     #page-index .notion-root>h1:first-of-type {
-        font-size: 6.5vw !important;
+        /* font-size: 6.5vw !important; */
+
+        /* Allow following elements to fit against */
         height: auto !important;
     }
+
+
+
 }
 
 
+/* Standard mobile screen */
+@media screen and (max-width: 480px) {
 
-@media screen and (max-width: 450px) {
+
 
 
     :root {
@@ -46,4 +57,8 @@
         font-size: 1.75rem !important;
         height: auto !important;
     }
+
+
+
+
 }
