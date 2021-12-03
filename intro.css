@@ -19,10 +19,7 @@
 
 /*Larger introductory p text*/
 .notion-root>.notion-text:first-of-type p {
-    color: #bfbfbf !important;
-
     font-size: 22px !important;
-    font-weight: 400 !important;
 
     max-width: 600px !important;
 }
