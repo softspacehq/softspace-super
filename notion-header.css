@@ -3,7 +3,7 @@
     margin: 0 !important;
 }
 
-/*Hide Notion header title or iconv*/
+/*Hide Notion header title or icon*/
 .notion-header__title-wrapper {
     display: none !important;
 }
