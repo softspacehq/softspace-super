@@ -1,16 +1,14 @@
-/* Styles applied to specific IDs to make a footer */
-
 :root {
     --font-size-footer: 0.825rem !important;
     --color-footer-divider: #424242 !important;
 }
 
-/*Copyright text block*/
+/* Copyright text block */
 #block-139fde9a1f8a4f89a4536aed5d084307>p {
     font-size: var(--font-size-footer) !important;
 }
 
-/*Footer callout block*/
+/* Footer callout block */
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 {
     border-left: none !important;
@@ -34,8 +32,9 @@
     max-width: 100% !important;
 }
 
+/* TODO: how many of the following zero margins and paddings are needed? */
+
 #block-8abf4236ccce4037a44a9f8b38f626f2 .notion-column {
-    /* margin: 0px !important; */
     padding: 0px !important;
 }
 
@@ -56,6 +55,8 @@
     padding: 0px !important;
     font-size: var(--font-size-footer) !important;
 }
+
+/* anchor elements in footer */
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 a {
     opacity: 0.6 !important;

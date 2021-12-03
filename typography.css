@@ -1,40 +1,8 @@
 :root {
     font-size: 17px !important;
-
-    --font-size-intro: 22px;
 }
 
-/* Special case of first H1 element in notion-root div */
-.notion-root>h1:first-of-type {
-    font-size: 2.65rem !important;
-    max-width: var(--width-super-mobile) !important;
-    padding: 0px 0px 0px 0px !important;
-    margin: 0px 0px 1.2em 0px !important;
-}
-
-/* Extra-special case of first H1 element in homepage */
-#page-index .notion-root>h1:first-of-type {
-    font-size: 3.3rem !important;
-    height: 50vh !important;
-}
-
-/*Larger introductory p text*/
-/*index*/
-#block-e1412bea6cd4422eb0692d4e77ae830d p,
-/*about*/
-#block-585c8d6fc1a5475eb3f8bbb3138a7373 p,
-#block-b1f6aa62eb0740ecaea650235a896c94 p,
-#block-2a8307f7c8ff4b5d845210bbc7090df0 p,
-/*research*/
-#block-843ca823634c48298ab913d8fd300d49 p,
-/*legacy*/
-#block-17a55128e6fe4b42af105c55d1597f8d p,
-#block-5684a2ae2d6042e19f75a86bbaaec8a2 p {
-    font-size: var(--font-size-intro) !important;
-    max-width: 600px !important;
-}
-
-/* General heading elements */
+/* Heading elements */
 
 h1 {
     font-size: 2.6rem !important;
@@ -57,6 +25,7 @@ h3 {
 }
 
 /* Use dark text color with light backgrounds */
+
 .bg-gray,
 .bg-green,
 .bg-orange,
