@@ -25,7 +25,7 @@ h3 {
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
     font-weight: 600 !important;
-    color: var(--color-text-gray) !important;
+    color: var(--color-primary) !important;
 }
 
 /* Use dark text color with light backgrounds */
