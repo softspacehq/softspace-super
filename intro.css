@@ -19,6 +19,8 @@
 
 /*Larger introductory p text*/
 .notion-root>.notion-text:first-of-type p {
+    color: #d1d1d1 !important;
+
     font-size: 22px !important;
 
     max-width: 600px !important;

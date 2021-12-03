@@ -6,6 +6,10 @@
     line-height: 1.425 !important;
 }
 
+.notion-heading .notion-semantic-string {
+    line-height: 1.3 !important;
+}
+
 /* Heading elements */
 
 h1 {

@@ -1,3 +1,12 @@
+@media screen and (max-height: 920px) {
+
+    /* Hide the 'scroll down' arrow */
+    #block-605a9fec43f44a5fb2cefcc339abf331 {
+        display: none !important;
+    }
+}
+
+
 /* Super.so mobile breakpoint */
 @media screen and (max-width: 860px) {
 
@@ -14,7 +23,6 @@
     .notion-semantic-string {
         line-height: 1.375 !important;
     }
-
 
     /* Hide the 'scroll down' arrow */
     #block-605a9fec43f44a5fb2cefcc339abf331 {
@@ -34,8 +42,10 @@
     }
 
     .notion-root>.notion-text:first-of-type p {
-        font-size: 20.5px !important;
+        /*color: #d1d1d1 !important;*/
+        font-size: 20px !important;
         font-weight: 500 !important;
+
     }
 
 
@@ -53,9 +63,5 @@
 
     h2 {
         font-size: 22px !important;
-    }
-
-    .notion-root>.notion-text:first-of-type p {
-        font-size: 19px !important;
     }
 }
