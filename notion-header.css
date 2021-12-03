@@ -17,7 +17,7 @@
 .notion-header__cover.has-cover {
     width: 100vw !important;
     height: 100vh !important;
-    max-height: 200vw !important;
+    max-height: 125vw !important;
 
     opacity: 0.25 !important;
     z-index: -10 !important;
