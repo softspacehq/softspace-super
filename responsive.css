@@ -1,12 +1,20 @@
 /* Super.so mobile breakpoint */
 @media screen and (max-width: 860px) {
 
-
-
-    :root {
-        /*--font-size-intro: 20px;*/
-        /*--font-size-first-h1-index: 6.5vw !important;*/
+    /* Constrain Notion header max height */
+    .notion-header.page {
+        max-height: 75vw !important;
     }
+
+
+    .notion-heading .notion-semantic-string {
+        line-height: 1.2 !important;
+    }
+
+    .notion-semantic-string {
+        line-height: 1.375 !important;
+    }
+
 
     /* Hide the 'scroll down' arrow */
     #block-605a9fec43f44a5fb2cefcc339abf331 {
@@ -15,9 +23,26 @@
 
     .notion-root>h1:first-of-type,
     #page-index .notion-root>h1:first-of-type {
-        font-size: 6.4vw !important;
+        font-size: 6.2vw !important;
         font-weight: 500 !important;
         height: auto !important;
+    }
+
+
+    /*Larger introductory p text*/
+    /*index*/
+    #block-e1412bea6cd4422eb0692d4e77ae830d p,
+    /*about*/
+    #block-585c8d6fc1a5475eb3f8bbb3138a7373 p,
+    #block-b1f6aa62eb0740ecaea650235a896c94 p,
+    #block-2a8307f7c8ff4b5d845210bbc7090df0 p,
+    /*research*/
+    #block-843ca823634c48298ab913d8fd300d49 p,
+    /*legacy*/
+    #block-17a55128e6fe4b42af105c55d1597f8d p,
+    #block-5684a2ae2d6042e19f75a86bbaaec8a2 p {
+        font-size: 20.5px !important;
+        font-weight: 500 !important;
     }
 
 
@@ -34,5 +59,21 @@
     #page-index .notion-root>h1:first-of-type {
         font-size: 28px !important;
         letter-spacing: -0.02em !important;
+    }
+
+
+    /*Larger introductory p text*/
+    /*index*/
+    #block-e1412bea6cd4422eb0692d4e77ae830d p,
+    /*about*/
+    #block-585c8d6fc1a5475eb3f8bbb3138a7373 p,
+    #block-b1f6aa62eb0740ecaea650235a896c94 p,
+    #block-2a8307f7c8ff4b5d845210bbc7090df0 p,
+    /*research*/
+    #block-843ca823634c48298ab913d8fd300d49 p,
+    /*legacy*/
+    #block-17a55128e6fe4b42af105c55d1597f8d p,
+    #block-5684a2ae2d6042e19f75a86bbaaec8a2 p {
+        font-size: 19px !important;
     }
 }
