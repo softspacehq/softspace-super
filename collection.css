@@ -1,21 +1,21 @@
 /* Gallery */
 
+/*Remove gallery padding intended to offset from title*/
+.notion-collection-gallery {
+    padding: 0 !important;
+}
+
+/* ---------------------- */
+
 .notion-collection-card {
     transition: var(--transition-hover) !important;
-    background: rgb(24, 25, 28) !important;
+    background: black !important;
     box-shadow: none !important;
     margin-bottom: 0em !important;
 }
 
 .notion-collection-card:hover {
     opacity: 0.7 !important;
-}
-
-/* ---------------------- */
-
-/*Remove gallery padding intended to offset from title*/
-.notion-collection-gallery {
-    padding: 0 !important;
 }
 
 /*Remove corner radius on gallery cards*/
@@ -27,12 +27,6 @@
 .notion-collection-card__cover {
     border: none !important;
     margin-bottom: 0.25em !important;
-}
-
-.notion-collection-card {
-    background: 0 !important;
-    box-shadow: none !important;
-    margin-bottom: 1em !important;
 }
 
 .notion-collection-card__cover.large,
