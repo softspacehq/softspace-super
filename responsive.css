@@ -44,7 +44,7 @@
     .notion-root>.notion-text:first-of-type p {
         /*color: #d1d1d1 !important;*/
         font-size: 20px !important;
-        font-weight: 500 !important;
+        /*font-weight: 500 !important;*/
 
     }
 
@@ -63,5 +63,17 @@
 
     h2 {
         font-size: 22px !important;
+    }
+
+    .notion-collection-list__item {
+        flex-direction: column !important;
+        align-items: start !important;
+        padding-left: 5px;
+        padding-top: 8px;
+        padding-bottom: 5px;
+    }
+
+    .notion-collection-list__item .notion-property__title .notion-semantic-string>span {
+        border: none !important;
     }
 }

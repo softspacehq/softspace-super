@@ -2,6 +2,9 @@
 
 .notion-collection-card {
     transition: var(--transition-hover) !important;
+    background: rgb(24, 25, 28) !important;
+    box-shadow: none !important;
+    margin-bottom: 0em !important;
 }
 
 .notion-collection-card:hover {
@@ -23,7 +26,7 @@
 
 .notion-collection-card__cover {
     border: none !important;
-    margin-bottom: 0.5em !important;
+    margin-bottom: 0.25em !important;
 }
 
 .notion-collection-card {
