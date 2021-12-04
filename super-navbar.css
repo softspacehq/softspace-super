@@ -22,7 +22,7 @@
     color: var(--color-primary) !important;
 }
 
-.super-navbar__menu:before {
+/* .super-navbar__menu:before {
     content: "";
 
     position: absolute;
@@ -36,3 +36,19 @@
 
     z-index: -1;
 }
+
+.super-navbar__menu:after {
+    content: "";
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: #080808;
+    opacity: 50%;
+
+    z-index: -2;
+} */
