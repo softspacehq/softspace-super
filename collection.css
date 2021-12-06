@@ -9,7 +9,7 @@
 
 .notion-collection-card {
     transition: var(--transition-hover) !important;
-    background: rgb(24, 25, 28) !important;
+    background: var(--color-bg-dark-darker) !important;
     box-shadow: none !important;
     margin-bottom: 0em !important;
 }
