@@ -15,19 +15,19 @@
 /* general headings */
 
 h1 {
-    font-size: 2.6rem !important;
+    font-size: 42px !important;
     font-weight: 400 !important;
     letter-spacing: -0.034em !important;
 }
 
 h2 {
-    font-size: 1.85rem !important;
-    font-weight: 500 !important;
+    font-size: 30px !important;
+    font-weight: 600 !important;
     letter-spacing: -0.006em !important;
 }
 
 h3 {
-    font-size: 0.9rem !important;
+    font-size: 15.5px !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
     font-weight: 600 !important;
@@ -44,7 +44,8 @@ h3 {
     color: var(--color-text-dark) !important;
 }
 
+/* Titles of items in Lists */
 
 .notion-property__title {
-    font-size: 0.95rem !important;
+    font-size: 16px !important;
 }

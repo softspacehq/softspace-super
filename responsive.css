@@ -6,51 +6,33 @@
         max-height: 75vw !important;
     }
 
-
-    .notion-heading .notion-semantic-string {
-        line-height: 1.2 !important;
-    }
-
-    .notion-semantic-string {
-        line-height: 1.375 !important;
-    }
-
     /* Hide the 'scroll down' arrow */
     #block-605a9fec43f44a5fb2cefcc339abf331 {
         display: none !important;
     }
 
+    /* Special type */
+
     h1,
     .notion-root>h1:first-of-type,
     #page-index .notion-root>h1:first-of-type {
-        font-size: 6.2vw !important;
-        font-weight: 500 !important;
+        font-size: calc(30px + 1.395vw) !important;
         height: auto !important;
     }
 
     h2 {
-        font-weight: 600 !important;
+        font-size: calc(20px + 1.16vw) !important;
     }
 
     .notion-root>.notion-text:first-of-type p {
-        font-size: 20px !important;
-
+        font-size: calc(18px + 0.465vw) !important;
     }
 }
 
 /* Standard mobile screen breakpoint */
 @media screen and (max-width: 480px) {
 
-    h1,
-    .notion-root>h1:first-of-type,
-    #page-index .notion-root>h1:first-of-type {
-        font-size: 32px !important;
-        letter-spacing: -0.02em !important;
-    }
-
-    h2 {
-        font-size: 22px !important;
-    }
+    /*List items*/
 
     .notion-collection-list__item {
         flex-direction: column !important;
