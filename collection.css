@@ -39,7 +39,7 @@
 
 .notion-collection-list__item {
     transition: var(--transition-hover) !important;
-    margin-bottom: 5px !important;
+    min-height: 50px;
 }
 
 .notion-collection-list__item:hover {
