@@ -1,6 +1,10 @@
+/* site-wide */
+
 :root {
     font-size: 17px !important;
 }
+
+/* line heights */
 
 .notion-semantic-string {
     line-height: 1.425 !important;
@@ -10,11 +14,7 @@
     line-height: 1.3 !important;
 }
 
-.notion-property__title {
-    font-size: 0.95rem;
-}
-
-/* Heading elements */
+/* general headings */
 
 h1 {
     font-size: 2.6rem !important;
@@ -36,7 +36,7 @@ h3 {
     color: var(--color-primary) !important;
 }
 
-/* Use dark text color with light backgrounds */
+/* text with dark backgrounds */
 
 .bg-gray,
 .bg-green,
@@ -44,4 +44,9 @@ h3 {
 .bg-yellow,
 .bg-pink {
     color: var(--color-text-dark) !important
+}
+
+
+.notion-property__title {
+    font-size: 0.95rem;
 }
