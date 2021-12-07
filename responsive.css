@@ -22,7 +22,7 @@
     .notion-collection-list__item {
         flex-direction: column !important;
         align-items: start !important;
-        padding-left: 0px !important;
+        padding-left: 6px !important;
         padding-top: 8px !important;
         padding-bottom: 8px !important;
     }
