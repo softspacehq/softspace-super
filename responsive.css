@@ -37,13 +37,16 @@
     .notion-collection-list__item {
         flex-direction: column !important;
         align-items: start !important;
+
         padding-left: 6px !important;
-        padding-top: 8px !important;
-        padding-bottom: 8px !important;
+        padding-top: 7px !important;
+
+        margin-top: 4px !important;
+        margin-bottom: 4px !important;
     }
 
     .notion-collection-list__item-content {
-        min-height: 36px;
+        min-height: 32px;
     }
 }
 
