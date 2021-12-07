@@ -1,13 +1,13 @@
 /* Set to primary color */
 
 ::selection {
-    background: var(--color-primary);
-    color: var(--color-text-dark)
+    background: var(--color-primary) !important;
+    color: var(--color-text-dark) !important
 }
 
 .notion-quote {
-    font-size: 1.1rem;
-    border-left: 1px solid var(--color-primary)
+    font-size: 1.1rem !important;
+    border-left: 1px solid var(--color-primary) !important
 }
 
 .notion-embed__content:before {

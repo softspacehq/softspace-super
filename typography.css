@@ -43,7 +43,7 @@ h3 {
 .bg-orange,
 .bg-yellow,
 .bg-pink {
-    color: var(--color-text-dark)
+    color: var(--color-text-dark) !important
 }
 
 

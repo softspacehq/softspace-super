@@ -4,28 +4,28 @@
 
     /* Defined colors */
 
-    --color-gray: #aeafaf;
-    --color-brown: #ae9d82;
-    --color-orange: #ff9933;
-    --color-yellow: #ffff66;
-    --color-green: #abff3d;
-    --color-blue: #3399ff;
-    --color-purple: #7d47cf;
-    --color-pink: #ffb1cf;
-    --color-red: #ff5666;
+    --color-gray: #aeafaf !important;
+    --color-brown: #ae9d82 !important;
+    --color-orange: #ff9933 !important;
+    --color-yellow: #ffff66 !important;
+    --color-green: #abff3d !important;
+    --color-blue: #3399ff !important;
+    --color-purple: #7d47cf !important;
+    --color-pink: #ffb1cf !important;
+    --color-red: #ff5666 !important;
 
-    --color-text-light: #F0F0F0;
-    --color-text-light-legible: #cccccc;
-    --color-text-gray: #999999;
-    --color-text-dark: #202126;
+    --color-text-light: #F0F0F0 !important;
+    --color-text-light-legible: #cccccc !important;
+    --color-text-gray: #999999 !important;
+    --color-text-dark: #202126 !important;
 
-    --color-bg-dark: hsl(var(--custprop-hsl-bg-dark));
-    --color-bg-dark-darker: rgb(24, 26, 28);
-    --color-bg-dark-lighter: #2f2f2f;
+    --color-bg-dark: hsl(var(--custprop-hsl-bg-dark)) !important;
+    --color-bg-dark-darker: rgb(24, 26, 28) !important;
+    --color-bg-dark-lighter: #2f2f2f !important;
 
     /* Brand colors */
 
-    --color-primary: var(--color-blue);
+    --color-primary: var(--color-blue) !important;
 
     /* Gradients */
 
@@ -47,5 +47,5 @@
             hsla(var(--custprop-hsl-bg-dark), 0.896) 73.4%,
             hsla(var(--custprop-hsl-bg-dark), 0.951) 81.4%,
             hsla(var(--custprop-hsl-bg-dark), 0.987) 90.3%,
-            hsl(var(--custprop-hsl-bg-dark)) 100%);
+            hsl(var(--custprop-hsl-bg-dark)) 100%) !important;
 }
