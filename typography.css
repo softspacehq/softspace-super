@@ -50,3 +50,34 @@ h3 {
 .notion-property__title {
     font-size: 0.95rem;
 }
+
+
+/* Special cases */
+
+/* Specify font-size in px for precise control over line breaks */
+
+/* Special case of first H1 element in notion-root div */
+.notion-root>h1:first-of-type {
+    font-size: 42px;
+    font-weight: 400;
+    max-width: 800px;
+
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 1.2em 0px;
+}
+
+/* Extra-special case of first H1 element in homepage */
+#page-index .notion-root>h1:first-of-type {
+    font-size: 55px;
+
+    height: 50vh;
+}
+
+/*Larger introductory p text*/
+.notion-root>.notion-text:first-of-type p {
+    color: #d1d1d1;
+
+    font-size: 22px;
+
+    max-width: 600px;
+}
