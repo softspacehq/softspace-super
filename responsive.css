@@ -1,38 +1,4 @@
-@media screen and (max-height: 920px) {
-
-    /* Hide the 'scroll down' arrow */
-    #block-605a9fec43f44a5fb2cefcc339abf331 {
-        display: none !important;
-    }
-}
-
-@media screen and (max-width: 480px) {
-
-    h1,
-    .notion-root>h1:first-of-type,
-    #page-index .notion-root>h1:first-of-type {
-        font-size: 32px !important;
-        letter-spacing: -0.02em !important;
-    }
-
-    h2 {
-        font-size: 22px !important;
-    }
-
-    .notion-collection-list__item {
-        flex-direction: column !important;
-        align-items: start !important;
-        padding-left: 6px !important;
-        padding-top: 8px !important;
-        padding-bottom: 8px !important;
-    }
-
-    .notion-collection-list__item-content {
-        min-height: 36px;
-    }
-}
-
-/* Super.so mobile breakpoint */
+/* Super.so mobile menu breakpoint */
 @media screen and (max-width: 860px) {
 
     /* Constrain Notion header max height */
@@ -69,5 +35,41 @@
     .notion-root>.notion-text:first-of-type p {
         font-size: 20px !important;
 
+    }
+}
+
+/* Standard mobile screen breakpoint */
+@media screen and (max-width: 480px) {
+
+    h1,
+    .notion-root>h1:first-of-type,
+    #page-index .notion-root>h1:first-of-type {
+        font-size: 32px !important;
+        letter-spacing: -0.02em !important;
+    }
+
+    h2 {
+        font-size: 22px !important;
+    }
+
+    .notion-collection-list__item {
+        flex-direction: column !important;
+        align-items: start !important;
+        padding-left: 6px !important;
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+    }
+
+    .notion-collection-list__item-content {
+        min-height: 36px;
+    }
+}
+
+/* Short windows */
+@media screen and (max-height: 920px) {
+
+    /* Hide the 'scroll down' arrow */
+    #block-605a9fec43f44a5fb2cefcc339abf331 {
+        display: none !important;
     }
 }
