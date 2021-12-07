@@ -7,8 +7,8 @@ body {
 
 .notion-root>div,
 .notion-column>div {
-    margin-top: 0.4em;
-    margin-bottom: 0.4em;
+    margin-top: 0.4em !important;
+    margin-bottom: 0.4em !important;
 }
 
 .super-content {

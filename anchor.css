@@ -3,9 +3,9 @@
 }
 
 .notion-semantic-string .link {
-    text-decoration: none;
-    border-bottom: 1px solid var(--color-text-default-light);
-    opacity: .7;
+    text-decoration: none !important;
+    border-bottom: 1px solid var(--color-text-default-light) !important;
+    opacity: .7 !important;
     transition: var(--transition-hover) !important;
     border-color: var(--color-text-light) !important;
     color: var(--color-text-light) !important;

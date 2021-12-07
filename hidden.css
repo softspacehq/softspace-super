@@ -9,7 +9,7 @@
 .notion-collection-gallery,
 .notion-collection-list,
 .notion-collection-board {
-    border: 0 !important;
+    border-top: 0 !important;
 }
 
 .notion-property__title__icon-wrapper {

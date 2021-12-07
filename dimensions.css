@@ -8,11 +8,5 @@ p {
 }
 
 .notion-text {
-    min-height: 1.5rem;
+    min-height: 1.5rem !important;
 }
-
-/* .notion-root>div,
-.notio-column>div {
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
-} */

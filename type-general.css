@@ -1,0 +1,52 @@
+/* site-wide */
+
+:root {
+    font-size: 17px !important;
+}
+
+/* line heights */
+
+.notion-semantic-string {
+    line-height: 1.425 !important;
+}
+
+.notion-heading .notion-semantic-string {
+    line-height: 1.3 !important;
+}
+
+/* general headings */
+
+h1 {
+    font-size: 2.6rem !important;
+    font-weight: 400 !important;
+    letter-spacing: -0.034em !important;
+}
+
+h2 {
+    font-size: 1.85rem !important;
+    font-weight: 500 !important;
+    letter-spacing: -0.006em !important;
+}
+
+h3 {
+    font-size: 0.9rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    font-weight: 600 !important;
+    color: var(--color-primary) !important;
+}
+
+/* text with dark backgrounds */
+
+.bg-gray,
+.bg-green,
+.bg-orange,
+.bg-yellow,
+.bg-pink {
+    color: var(--color-text-dark) !important;
+}
+
+
+.notion-property__title {
+    font-size: 0.95rem !important;
+}
