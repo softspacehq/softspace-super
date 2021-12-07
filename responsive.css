@@ -74,6 +74,6 @@
     }
 
     .notion-collection-list__item .notion-property__title .notion-semantic-string>span {
-        border: none !important;
+        /* border: none !important; */
     }
 }
