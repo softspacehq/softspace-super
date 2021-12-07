@@ -6,38 +6,38 @@
 
     /* Color of text without any background */
 
-    --color-text-default: var(--color-text-light) !important;
-    --color-text-gray: var(--color-gray) !important;
-    --color-text-brown: var(--color-brown) !important;
-    --color-text-orange: var(--color-orange) !important;
-    --color-text-yellow: var(--color-yellow) !important;
-    --color-text-green: var(--color-green) !important;
-    --color-text-blue: var(--color-blue) !important;
-    --color-text-purple: var(--color-purple) !important;
-    --color-text-pink: var(--color-pink) !important;
-    --color-text-red: var(--color-red) !important;
+    --color-text-default: var(--color-text-light);
+    --color-text-gray: var(--color-gray);
+    --color-text-brown: var(--color-brown);
+    --color-text-orange: var(--color-orange);
+    --color-text-yellow: var(--color-yellow);
+    --color-text-green: var(--color-green);
+    --color-text-blue: var(--color-blue);
+    --color-text-purple: var(--color-purple);
+    --color-text-pink: var(--color-pink);
+    --color-text-red: var(--color-red);
 
     /* Color of text backgrounds */
 
-    --color-bg-gray: var(--color-gray) !important;
-    --color-bg-brown: var(--color-brown) !important;
-    --color-bg-orange: var(--color-orange) !important;
-    --color-bg-yellow: var(--color-yellow) !important;
-    --color-bg-green: var(--color-green) !important;
-    --color-bg-blue: var(--color-blue) !important;
-    --color-bg-purple: var(--color-purple) !important;
-    --color-bg-pink: var(--color-pink) !important;
-    --color-bg-red: var(--color-red) !important;
+    --color-bg-gray: var(--color-gray);
+    --color-bg-brown: var(--color-brown);
+    --color-bg-orange: var(--color-orange);
+    --color-bg-yellow: var(--color-yellow);
+    --color-bg-green: var(--color-green);
+    --color-bg-blue: var(--color-blue);
+    --color-bg-purple: var(--color-purple);
+    --color-bg-pink: var(--color-pink);
+    --color-bg-red: var(--color-red);
 
     /* Color of property pills */
 
-    --color-pill-gray: var(--color-gray) !important;
-    --color-pill-brown: var(--color-brown) !important;
-    --color-pill-orange: var(--color-orange) !important;
-    --color-pill-yellow: var(--color-yellow) !important;
-    --color-pill-green: var(--color-green) !important;
-    --color-pill-blue: var(--color-blue) !important;
-    --color-pill-purple: var(--color-purple) !important;
-    --color-pill-pink: var(--color-pink) !important;
-    --color-pill-red: var(--color-red) !important;
+    --color-pill-gray: var(--color-gray);
+    --color-pill-brown: var(--color-brown);
+    --color-pill-orange: var(--color-orange);
+    --color-pill-yellow: var(--color-yellow);
+    --color-pill-green: var(--color-green);
+    --color-pill-blue: var(--color-blue);
+    --color-pill-purple: var(--color-purple);
+    --color-pill-pink: var(--color-pink);
+    --color-pill-red: var(--color-red);
 }

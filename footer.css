@@ -1,54 +1,54 @@
 :root {
-    --font-size-footer: 0.825rem !important;
+    --font-size-footer: 0.825rem;
 }
 
 /* Copyright text block */
 #block-139fde9a1f8a4f89a4536aed5d084307>p {
-    font-size: var(--font-size-footer) !important;
+    font-size: var(--font-size-footer);
 }
 
 /* Footer callout block */
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 {
-    border-left: solid !important;
-    border-left: none !important;
-    border-right: none !important;
-    border-bottom: none !important;
+    border-left: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 
-    border-radius: 0 !important;
-    border-color: #4d4d4d !important;
-    background: none !important;
-    border-width: 1px !important;
+    border-radius: 0;
+    border-color: #4d4d4d;
+    background: none;
+    border-width: 1px;
 }
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 .notion-callout__icon {
-    display: none !important;
+    display: none;
 }
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 .notion-callout__content {
-    margin: 0px !important;
-    width: 100% !important;
-    max-width: 100% !important;
+    margin: 0px;
+    width: 100%;
+    max-width: 100%;
 }
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 .notion-text {
-    margin: 0px !important;
+    margin: 0px;
     height: 1.8em;
-    min-height: 0px !important;
+    min-height: 0px;
 }
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 p {
-    font-size: var(--font-size-footer) !important;
+    font-size: var(--font-size-footer);
 }
 
 /* anchor elements in footer */
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 a {
-    opacity: 0.6 !important;
-    border-style: none !important;
+    opacity: 0.6;
+    border-style: none;
 }
 
 #block-8abf4236ccce4037a44a9f8b38f626f2 a:hover {
-    opacity: 1 !important;
-    color: white !important;
+    opacity: 1;
+    color: white;
 }

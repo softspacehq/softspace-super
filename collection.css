@@ -2,46 +2,46 @@
 
 /*Remove gallery padding intended to offset from title*/
 .notion-collection-gallery {
-    padding: 0 !important;
+    padding: 0;
 }
 
 /* ---------------------- */
 
 .notion-collection-card {
-    transition: var(--transition-hover) !important;
-    background: var(--color-bg-dark-darker) !important;
-    box-shadow: none !important;
-    margin-bottom: 0em !important;
+    transition: var(--transition-hover);
+    background: var(--color-bg-dark-darker);
+    box-shadow: none;
+    margin-bottom: 0em;
 }
 
 .notion-collection-card:hover {
-    opacity: 0.7 !important;
+    opacity: 0.7;
 }
 
 /*Remove corner radius on gallery cards*/
 .notion-collection-card,
 .notion-collection-card__cover img {
-    border-radius: 0 !important;
+    border-radius: 0;
 }
 
 .notion-collection-card__cover {
-    border: none !important;
-    margin-bottom: 0.25em !important;
+    border: none;
+    margin-bottom: 0.25em;
 }
 
 .notion-collection-card__cover.large,
 .notion-collection-card__cover.large span {
-    height: 325px !important;
-    max-height: 100vw !important;
+    height: 325px;
+    max-height: 100vw;
 }
 
 /* -------------------*/
 
 .notion-collection-list__item {
-    transition: var(--transition-hover) !important;
+    transition: var(--transition-hover);
     min-height: 50px;
 }
 
 .notion-collection-list__item:hover {
-    background: #303940 !important;
+    background: #303940;
 }

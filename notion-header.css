@@ -1,28 +1,28 @@
 /*Remove Notion header margin*/
 .notion-header {
-    margin: 0 !important;
+    margin: 0;
 }
 
 /*Hide Notion header title or icon*/
 .notion-header__title-wrapper {
-    display: none !important;
+    display: none;
 }
 
 /* Constrain Notion header max height */
 .notion-header.page {
-    max-height: 50vh !important;
+    max-height: 50vh;
 }
 
 /* Make Notion header cover image full-screen */
 .notion-header__cover.has-cover {
-    width: 100vw !important;
-    height: 100vh !important;
-    max-height: 125vw !important;
+    width: 100vw;
+    height: 100vh;
+    max-height: 125vw;
 
-    opacity: 0.25 !important;
-    z-index: -10 !important;
+    opacity: 0.25;
+    z-index: -10;
 
-    animation: fadeInHeaderCover var(--dur-in-slow) var(--ease-default) !important;
+    animation: fadeInHeaderCover var(--dur-in-slow) var(--ease-default);
 }
 
 /*Draw an image over Notion header cover*/

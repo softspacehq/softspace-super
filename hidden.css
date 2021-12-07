@@ -1,17 +1,17 @@
 .notion-toggle {
-    display: none !important;
+    display: none;
 }
 
 .notion-collection__header {
-    display: none !important;
+    display: none;
 }
 
 .notion-collection-gallery,
 .notion-collection-list,
 .notion-collection-board {
-    border: 0 !important;
+    border: 0;
 }
 
 .notion-property__title__icon-wrapper {
-    display: none !important;
+    display: none;
 }

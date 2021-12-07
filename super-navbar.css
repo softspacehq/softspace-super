@@ -1,25 +1,25 @@
 .super-navbar {
-    position: fixed !important;
-    animation: fadeIn var(--dur-in-mid) var(--ease-default) !important;
+    position: fixed;
+    animation: fadeIn var(--dur-in-mid) var(--ease-default);
 }
 
 .super-navbar__item {
-    font-size: 0.925rem !important;
+    font-size: 0.925rem;
 }
 
 .super-navbar__logo-text,
 .super-navbar__item {
-    font-weight: 400 !important;
+    font-weight: 400;
 }
 
 .super-navbar__logo,
 .super-navbar__item {
-    transition: var(--transition-hover) !important;
+    transition: var(--transition-hover);
 }
 
 .super-navbar__logo:hover,
 .super-navbar__item:hover {
-    color: var(--color-primary) !important;
+    color: var(--color-primary);
 }
 
 /* navbar backdrop */
