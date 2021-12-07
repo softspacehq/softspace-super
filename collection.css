@@ -39,9 +39,10 @@
 
 .notion-collection-list__item {
     transition: var(--transition-hover) !important;
+    border: 1px transparent solid !important;
     min-height: 50px !important;
 }
 
 .notion-collection-list__item:hover {
-    background: #303940 !important;
+    border: 1px white solid !important;
 }
