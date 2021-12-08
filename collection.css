@@ -45,4 +45,5 @@
 
 .notion-collection-list__item:hover {
     border: 1px white solid !important;
+    background: none !important;
 }
