@@ -1,14 +1,17 @@
 .notion-root a {
-    opacity: 100% !important;
+    opacity: 1 !important;
 }
 
 .notion-semantic-string .link {
-    text-decoration: none !important;
-    border-bottom: 1px solid var(--color-text-default-light) !important;
-    opacity: .7 !important;
     transition: var(--transition-hover) !important;
-    border-color: var(--color-text-light) !important;
-    color: var(--color-text-light) !important;
+
+    opacity: 1 !important;
+
+    color: inherit !important;
+
+    text-decoration: none !important;
+    border-bottom: 1px solid inherit !important;
+    border-color: inherit !important;
 }
 
 .notion-semantic-string .link:hover {
