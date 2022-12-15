@@ -19,8 +19,8 @@
     height: 100vh !important;
     max-height: 125vw !important;
 
-    opacity: 0.25 !important;
-    z-index: -10 !important;
+    opacity: 0.5 !important;
+    z-index: -1 !important;
 
     animation: fadeInHeaderCover var(--dur-in-slow) var(--ease-default) !important;
 }

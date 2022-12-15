@@ -27,6 +27,10 @@
 
     --color-primary: var(--color-blue) !important;
 
+    /* Header Cover Image */
+
+    --opacity-cover: 0.4;
+
     /* Gradients */
 
     /* Generated with https: //larsenwork.com/easing-gradients/#editor */
