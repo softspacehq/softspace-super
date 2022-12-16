@@ -3,5 +3,6 @@
     /*background-position: center;*/
     /*background-size: cover;*/
 
-    background: #28292e !important;
+    border-radius: 10px !important;
+    /* background: #28292e !important; */
 }
