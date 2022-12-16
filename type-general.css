@@ -23,15 +23,11 @@ h1 {
 h2 {
     font-size: 30px !important;
     font-weight: 600 !important;
-    /*letter-spacing: -0.006em !important;*/
 }
 
 h3 {
     font-size: 20px !important;
-    /*text-transform: uppercase !important;*/
-    /*letter-spacing: 0.3px !important;*/
     font-weight: 600 !important;
-    /*color: var(--color-gray) !important;*/
 }
 
 /* text with dark backgrounds */
