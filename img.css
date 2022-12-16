@@ -1,8 +1,3 @@
-* img {
-    /*background: url(https://softspacehq.github.io/softspace-super/loading.gif);*/
-    /*background-position: center;*/
-    /*background-size: cover;*/
-
+.notion-image img {
     border-radius: 10px !important;
-    /* background: #28292e !important; */
 }
