@@ -1,4 +1,5 @@
 .super-navbar {
+    background: 0;
     position: fixed !important;
     animation: fadeIn var(--dur-in-mid) var(--ease-default) !important;
 }
@@ -9,7 +10,7 @@
 
 .super-navbar__logo-text,
 .super-navbar__item {
-    font-weight: 400 !important;
+    font-weight: 500 !important;
 }
 
 .super-navbar__logo,
@@ -26,23 +27,7 @@
 
 :root {
     --navbar-backdrop-gradientstart: 0px;
-    --navbar-backdrop-opacity: 70%;
-}
-
-.super-navbar:before {
-    content: "";
-
-    position: absolute;
-    top: 0px;
-    left: 0px;
-
-    width: 100%;
-    height: var(--navbar-backdrop-gradientstart);
-
-    background: var(--color-bg-dark);
-    opacity: var(--navbar-backdrop-opacity);
-
-    z-index: -1;
+    --navbar-backdrop-opacity: 80%;
 }
 
 .super-navbar:after {
@@ -53,7 +38,7 @@
     left: 0px;
 
     width: 100%;
-    height: 200%;
+    height: 150px;
 
     background-image: var(--gradient-bg-dark);
 
